@@ -1,3 +1,15 @@
+/*Colors: 
+#70A9DB
+#86DBCC
+#DC9963
+#5C544E
+#4E555C
+#4E5C59
+
+*/
+
+
+
 body {
   background-color: rgb(205, 226, 229);
 }
@@ -46,6 +58,10 @@ p {
     float: left;
     color: white;
   }
+  .topnav-left a{
+    font-size: 50px;
+  }
+
   /* Change the color of links on hover */
   .topnav-left a:hover {
     background-color: #333475;
