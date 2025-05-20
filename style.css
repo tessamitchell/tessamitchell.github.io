@@ -22,7 +22,7 @@ p {
 
 /* Add a black background color to the top navigation */
 .topnav {
-    margin:-20px;
+    margin:-10px;
     padding:0;
     background-color: #333475;
     overflow: hidden;
