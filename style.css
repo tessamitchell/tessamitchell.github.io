@@ -39,17 +39,19 @@ p {
     color: black;
   }
   .topnav-left{
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
     float: left;
     color: white;
   }
   /* Change the color of links on hover */
   .topnav-left a:hover {
-    
+    background-color: #333475;
     color: lightgray;
   }
   
   /* Add a color to the active/current link */
   .topnav-left a.active {
-    background-color: #eba66b;
+    background-color: #333475;
     color: white;
   }
