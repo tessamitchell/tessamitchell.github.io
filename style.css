@@ -10,6 +10,8 @@ p {
 
 /* Add a black background color to the top navigation */
 .topnav {
+    margin:0;
+    padding:0;
     background-color: #333475;
     overflow: hidden;
   }
@@ -38,5 +40,16 @@ p {
   }
   .topnav-left{
     float: left;
+    color: white;
+  }
+  /* Change the color of links on hover */
+  .topnav-left a:hover {
+    
+    color: lightgray;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav-left a.active {
+    background-color: #eba66b;
     color: white;
   }
