@@ -12,6 +12,7 @@
 
 body {
   background-color: rgb(205, 226, 229);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h1 {
   color: rgb(0, 0, 33);
@@ -22,7 +23,7 @@ p {
 
 /* Add a black background color to the top navigation */
 .topnav {
-    margin:0px;
+    margin:-5px;
     padding:0;
     background-color: #333475;
     overflow: hidden;
@@ -36,7 +37,7 @@ p {
     float: right;
     color: #f2f2f2;
     text-align: center;
-    bottom:5px;
+    bottom:0px;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -56,6 +57,7 @@ p {
   .topnav-left{
     font-family:'Courier New', Courier, monospace;
     font-size:25px;
+    left:10px;
     float: left;
     color: white;
   }
