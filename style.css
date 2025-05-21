@@ -105,12 +105,13 @@ p {
 
 }
 
-.main-imagecolumn{
+.main-column{
     padding:2%;
     margin:2%;
+    flex:50%;
 }
 
 .my-image{
-    height: (fit-content - 3%);
+    height: fit-content;
     width:50%;
 }
