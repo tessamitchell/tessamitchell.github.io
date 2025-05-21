@@ -38,6 +38,8 @@ p {
     background-color: #333475;
     overflow: hidden;
     width:100%;
+    position: fixed;
+    top:0;
   }
  
 
