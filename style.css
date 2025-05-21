@@ -40,7 +40,7 @@ p {
     width:100%;
     position: fixed;
     top:0;
-    height:5%;
+    height:10%;
   }
  
 
@@ -51,7 +51,7 @@ p {
     color: #f2f2f2;
     text-align: center;
     margin-right: 10px;
-    margin-top:5px;
+    margin-top:7px;
     margin-bottom: 0px;
     padding: 14px 16px;
     text-decoration: none;
