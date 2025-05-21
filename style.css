@@ -105,7 +105,12 @@ p {
 
 }
 
+.main-imagecolumn{
+    padding:2%;
+    margin:2%;
+}
+
 .my-image{
     height: (fit-content - 3%);
-
+    width:50%;
 }
