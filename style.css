@@ -47,7 +47,8 @@ p {
     float: right;
     color: #f2f2f2;
     text-align: center;
-    margin-top:5px;
+    
+    margin-bottom: 0px;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -93,4 +94,12 @@ p {
     display:inline;
     overflow: hidden;
   
+}
+
+
+.containermain {
+    margin:5%;
+    padding:5%;
+    background-color: #eba66b;
+    
 }
