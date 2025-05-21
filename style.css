@@ -23,11 +23,11 @@ p {
 
 /* Add a black background color to the top navigation */
 .topnav {
-    margin:-5px;
+    margin:0px;
     padding:0;
     background-color: #333475;
     overflow: hidden;
-    
+    width:100%;
   }
  
 
