@@ -100,14 +100,14 @@ p {
 
 .containermain {
     margin:2%;
-   
+    height:100%;
     background-color: #eba66b;
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
 }
 
-.main-column{
+.countermain div{
     padding:2%;
     margin:0 4px;
     flex:50%;
