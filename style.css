@@ -136,10 +136,11 @@ p {
     overflow: hidden;
     width:100%;
     
-    bottom:0;
+    
     height:5%;
 }
 .footer p{
     float:right;
     padding:10px;
+    color:white;
 }
