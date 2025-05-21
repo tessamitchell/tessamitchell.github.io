@@ -47,7 +47,8 @@ p {
     float: right;
     color: #f2f2f2;
     text-align: center;
-    
+    margin-right: 3%;
+    margin-top:3%;
     margin-bottom: 0px;
     padding: 14px 16px;
     text-decoration: none;
@@ -98,8 +99,13 @@ p {
 
 
 .containermain {
-    margin:5%;
-    padding:5%;
+    margin:2%;
+    padding:2%;
     background-color: #eba66b;
-    
+
+}
+
+.my-image{
+    height: (fit-content - 3%);
+
 }
