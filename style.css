@@ -40,6 +40,7 @@ p {
     width:100%;
     position: fixed;
     top:0;
+    height:5%;
   }
  
 
@@ -102,17 +103,21 @@ p {
 
 .containermain {
     margin:2%;
+    margin-top: 7%;
     height:100%;
     background-color: #eba66b;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 2%;
+    overflow: hidden;
+    display:table;
 }
 
 .countermain div{
     padding:2%;
-    margin:0 4px;
+    margin:2%;
     flex:50%;
+    float: center;
 }
 
 .main-column img{
