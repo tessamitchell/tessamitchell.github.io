@@ -140,6 +140,7 @@ tr{
 }
 
 .footer{
+    position:absolute;
     margin:0px;
     padding:0;
     background-color: #333475;
@@ -167,5 +168,5 @@ tr{
     flex-wrap: wrap;
     padding: 2%;
     overflow: hidden;
-    
+    display:table;
 }
