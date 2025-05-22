@@ -126,7 +126,11 @@ p {
     vertical-align:middle;
 }
 
-th{width:50%;}
+
+th{
+    width:50%;
+    height:100%;
+}
 
 
 .footer{
@@ -135,7 +139,7 @@ th{width:50%;}
     background-color: #333475;
     overflow: hidden;
     width:100%;
-    
+    bottom:0;
     
     height:5%;
 }
