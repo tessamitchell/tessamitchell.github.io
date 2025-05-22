@@ -112,7 +112,7 @@ p {
     flex-wrap: wrap;
     padding: 2%;
     overflow: hidden;
-    
+    display:table;
 }
 
 .countermain div{
@@ -163,7 +163,7 @@ tr{
     margin-top: 7%;
     height:100%;
     width:100%;
-    background-color: #6b6deb;
+    background-color: #aeafe7;
     display: flex;
     flex-wrap: wrap;
     padding: 2%;
