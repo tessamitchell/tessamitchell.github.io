@@ -121,8 +121,8 @@ p {
 }
 
 .main-imgcolumn img{
-    height: fit-content;
-    width:fit-content;
+    
+    /* width:50%; */
     vertical-align:middle;
 }
 
@@ -131,7 +131,9 @@ th{
     width:50%;
     height:100%;
 }
-
+tr{
+    height:100%;
+}
 
 .footer{
     margin:0px;
@@ -139,7 +141,7 @@ th{
     background-color: #333475;
     overflow: hidden;
     width:100%;
-    bottom:0;
+    margin-bottom:0;
     
     height:5%;
 }
