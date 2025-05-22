@@ -122,7 +122,7 @@ p {
 
 .main-imgcolumn img{
     
-    width:50%;
+    width:100%;
     vertical-align:middle;
 }
 
@@ -130,6 +130,8 @@ p {
 th{
     width:50%;
     height:100%;
+    border:2px;
+    border-color: black;
 }
 tr{
     height:100%;
