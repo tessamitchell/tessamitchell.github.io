@@ -173,8 +173,12 @@ tr{
     display:table;
 }
 
-.biomain tr{
+.mainbio{
+    /* margin-left: 5%; */
+}
+.mainbio tr{
     margin: 5%;
     padding:2%;
     text-align: center;
+    
 }
