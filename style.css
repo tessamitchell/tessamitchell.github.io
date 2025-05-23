@@ -162,7 +162,7 @@ tr{
 .myprojectsmain {
     margin:2%;
     margin-top: 7%;
-    height:100%;
+    height:fit-content;
     width:100%;
     max-width:96%;
     background-color: #aeafe7;
