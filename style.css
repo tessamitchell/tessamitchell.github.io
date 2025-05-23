@@ -30,6 +30,7 @@ h1 {
 }
 p {
   color: rgb(34, 35, 75);
+  line-height: 10px;
 }
 
 /* Add a black background color to the top navigation */
@@ -145,7 +146,7 @@ tr{
 
 .mainbio{
     margin-left: 5%;
-    line-height: 5px;
+    
 }
 .mainbio table{
     border-bottom: 5%;
