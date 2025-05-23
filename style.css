@@ -172,3 +172,9 @@ tr{
     overflow: hidden;
     display:table;
 }
+
+.biomain tr{
+    margin: 5%;
+    padding:2%;
+    text-align: center;
+}
