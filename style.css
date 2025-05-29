@@ -102,7 +102,7 @@ p {
 }
 /* The dropdown container */
 .dropdown {
-  float: left;
+  float: right;
   overflow: hidden;
 }
 
@@ -110,7 +110,7 @@ p {
 .dropdown .dropbtn {
   font-family:'Courier New', Courier, monospace;
   left:10px;
-  
+  float:right;
   margin-top: 7px;
   font-size: 17px;
   border: none;
