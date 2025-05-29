@@ -133,6 +133,7 @@ p {
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
+  top:10%;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
