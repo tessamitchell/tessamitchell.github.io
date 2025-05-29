@@ -119,6 +119,7 @@ p {
   outline: none;
   color: white;
   padding: 14px 16px;
+  padding-top: 14px;
   background-color: inherit;
  /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
