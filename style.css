@@ -112,13 +112,15 @@ p {
   left:10px;
   float:right;
   margin-top: 7px;
+  margin-right: 10px;
+  margin-bottom: 0px;
   font-size: 17px;
   border: none;
   outline: none;
   color: white;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
+ /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
