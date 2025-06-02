@@ -38,7 +38,7 @@ p {
     margin:0px;
     padding:0;
     background-color: #333475;
-    overflow: hidden;
+    /* overflow: hidden; */
     width:100%;
     position: fixed;
     top:0;
