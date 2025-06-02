@@ -137,7 +137,7 @@ p {
   display: none;
   top:10vh;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #333475;
   min-width: fit-content;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -148,7 +148,7 @@ p {
 /* Links inside the dropdown */
 .dropdown-content a {
   float: none;
-  color: black;
+  color: white;
   padding: 14px 16px;
   text-decoration: none;
   display: block;
