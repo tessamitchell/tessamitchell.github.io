@@ -104,6 +104,7 @@ p {
 .dropdown {
   float: right;
   overflow:visible;
+  margin-top: 7px;
 }
 
 /* Dropdown button */
