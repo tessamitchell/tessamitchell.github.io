@@ -155,7 +155,7 @@ p {
 /* Links inside the dropdown */
 .dropdown-content a {
   
-  display: block;
+  display: block flex;
   color: white;
   padding: 14px 16px;
   /* padding:0px;
