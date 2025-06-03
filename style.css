@@ -137,7 +137,7 @@ p {
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
-  top:10vh;
+  top:calc(10vh-10px);
   position: absolute;
   background-color: #333475;
   min-width: fit-content;
@@ -146,16 +146,18 @@ p {
   margin:0px;
   /* padding:10px;  */
   padding:0px;
+  padding-left:5px;
+  padding-bottom:5px;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
   float: center;
   color: white;
-  /* padding: 14px 16px; */
-  padding:0px;
+  padding: 14px 16px;
+  /* padding:0px;
   padding-left:5px;
-  padding-right:5px;
+  padding-right:5px; */
   text-decoration: none;
   display: block;
   text-align: center;
