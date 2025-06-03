@@ -141,6 +141,7 @@ p {
   position: absolute;
   background-color: #333475;
   min-width: fit-content;
+  max-width:100px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   margin:0px;
@@ -161,7 +162,7 @@ p {
   text-decoration: none;
   display: block;
   text-align: center;
-  font:14px;
+  font:13px;
 }
 
 /* Add a grey background color to dropdown links on hover */
