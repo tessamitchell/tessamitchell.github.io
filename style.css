@@ -77,9 +77,11 @@ p {
     left:10px;
     float: left;
     color: white;
+    
   }
 .topnav-left a{
     font-size: 25px;
+    margin-top:3px;
   }
 
   /* Change the color of links on hover */
