@@ -140,7 +140,7 @@ p {
   z-index: 1;
   font-size:10px;
   top:10vh-5px;
-  left: 50%;
+  
   transform: translateX(-50%);
 }
 
