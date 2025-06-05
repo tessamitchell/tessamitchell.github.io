@@ -31,6 +31,7 @@ h1 {
 p {
   color: rgb(34, 35, 75);
   line-height: 20px;
+  text-indent: 4em;
 }
 
 /* Add a black background color to the top navigation */
