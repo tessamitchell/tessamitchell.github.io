@@ -1,15 +1,67 @@
 {
     "project1":{
         "name":"10 Minute Documentary",
-        "youtube":"",
-        "Description":"",
+        "youtube":"This was a class project where we had to make a short documentary (defined as 10 minutes or less) with a clear beginning, middle and end.",
+        "Brief":"",
+        "Description":"I chose to make my documentary about my hometown and its involvement in the Underground Railroad.  I ended up with so much footage that I could make an hour long documentary about this topic, which is something I do in fact plan to do at some point.",
+        "date":"",
         "tags":["Adobe Premiere Pro", "Documentary", "Canon 5D Mark IV"]
     },
     "project2":{
+        "name":"Don't Do As Roman!",
+        "youtube":"",
+        "Brief":"",
+        "Description":"This was a group project for class.  I fulfilled a variety of roles: Assistant Director, Art Director, Camera, Executive Producer, etc.  The film wasn't my personal vision, and I would have approached the storytelling differently, however my job was to fulfill that of the director.  I also fell sick during the bulk of the filming days, and was only there for two of the final scenes.  As part of the group, however, we all got to make our own final edit, which is where I was able to really shine.  I created all the graphics myself in Photoshop and then used After Effects to incorporate them into the final edit.",
+        "date":"",
+        "tags":["Adobe Premiere Pro", "Short Film", "Canon 5D Mark IV", "Canon EOS Rebel T5i", "Adobe After Effects", "Adobe Audition", "Adobe Photoshop"]
+    },
+    "project3":{
+        "name":"Gimme Truth! Documentary",
+        "youtube":"",
+        "Brief":"",
+        "Description":"",
+        "date":"",
+        "tags":[]
+    },
+    "project4":{
+        "name":"Visual Poem",
+        "youtube":"",
+        "Brief":"",
+        "Description":"",
+        "date":"",
+        "tags":[]
+    },
+    "project5":{
+        "name":"Light and Composition Project",
+        "youtube":"",
+        "Brief":"",
+        "Description":"",
+        "date":"",
+        "tags":[]
+    },
+    "project6":{
+        "name":"Photostory",
+        "youtube":"",
+        "Brief":"",
+        "Description":"",
+        "date":"",
+        "tags":[]
+    },
+    "project7":{
+        "name":"Animation Practice",
+        "youtube":"",
+        "Brief":"",
+        "Description":"",
+        "date":"",
+        "tags":[]
+    },
+    "template":{
         "name":"",
         "youtube":"",
+        "Brief":"",
         "Description":"",
-        "tags":[""]
+        "date":"",
+        "tags":[]
     }
 
 

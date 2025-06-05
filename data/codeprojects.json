@@ -1,8 +1,20 @@
 
 {
-    "project1":{"name":"Twodle","tags":["game dev", "WPF","C#","XAML",".NET"],
-                "github":null, "description":"This app was developed for my C#/.NET class.","date":"05-11-2025"},
+    "project1":{
+        "name":"Twodle",
+        "github":null, 
+        "brief":null,
+        "description":"This app was developed for my C#/.NET class.",
+        "date":"05-11-2025",
+        "tags":["Game Dev", "WPF","C#","XAML",".NET"]
+    },
 
-    "project2":{"name":"Twodle","tags":["game dev", "WPF","C#","XAML",".NET"],
-                "github":null, "description":"This app was developed for my C#/.NET class.","date":"05-11-2025"}
+    "project2":{
+        "name":"",
+        "github":null, 
+        "brief":null,
+        "description":"",
+        "date":"",
+        "tags":[]
+    }
 }
