@@ -271,9 +271,18 @@ tr{
     height:5%;
 }
 .footer p{
+    font-family: 'Courier New', Courier, monospace;
     float:right;
     padding:10px;
     color:white;
+}
+
+.footer-left img{
+    height: 4vh;
+    width:auto;
+    display:inline;
+
+
 }
 
 
