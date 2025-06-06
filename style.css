@@ -275,11 +275,15 @@ tr{
     float:right;
     padding:10px;
     color:white;
+    margin-bottom:5px;
+}
+.footer-left{
+  margin-top:5px;
 }
 
 .footer-left a{
   margin-left:10px;
-  margin-top:2px;
+  text-decoration: none;
 }
 
 
