@@ -277,6 +277,12 @@ tr{
     color:white;
 }
 
+.footer-left a{
+  margin-left:10px;
+  margin-top:2px;
+}
+
+
 .footer-left img{
     height: 4vh;
     width:auto;
