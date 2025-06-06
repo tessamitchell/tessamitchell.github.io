@@ -274,8 +274,8 @@ tr{
     font-family: 'Courier New', Courier, monospace;
     float:right;
     padding:10px;
-    color:white;
-    margin-bottom:5px;
+    color:lightgray;
+    margin-bottom:7px;
 }
 .footer-left{
   margin-top:5px;
@@ -288,9 +288,10 @@ tr{
 
 
 .footer-left img{
-    height: 4vh;
+    height: 3vh;
     width:auto;
     display:inline;
+    color:lightgray;
 
 
 }
