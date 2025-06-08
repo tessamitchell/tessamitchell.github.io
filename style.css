@@ -207,13 +207,13 @@ p {
 }
 
 
-th{
+.countermain th{
     width:50%;
     height:100%;
     border:2px;
     border-color: black;
 }
-tr{
+.countermain tr{
     height:100%;
 }
 
@@ -307,7 +307,10 @@ tr{
   margin:10px;
 }
 
-
+.code-card th{
+  width:fit-content;
+  text-align: left;
+}
 
 .code-card img{
   width:30vh;
@@ -322,5 +325,5 @@ tr{
   background-color:#aeafe7;
   color:black;
   padding:5px;
-  border-color: #aeafe7;
+  border:none;
 }
