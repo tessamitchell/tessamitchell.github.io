@@ -318,13 +318,14 @@ p {
 }
 
 .code-card img{
-  width:20%;
+  width:30vw;
   height:auto;
 
 }
 .code-tags{
   width:100%;
   display:flex;
+  float:center;
 }
 .code-tags button{
   background-color:#aeafe7;
@@ -333,5 +334,10 @@ p {
   border:none;
   border-color:#333475;
   border:2px;
-  margin-right:10%;
+  margin-right:5%;
+  margin-left:5%
+  
+}
+.descriptionbrief th{
+  width:fit-content;
 }
