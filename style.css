@@ -299,3 +299,28 @@ tr{
 
 
 
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+
+.code-card{
+  padding:10px;
+  background-color: #eeb482;
+  margin:10px;
+}
+
+
+
+.code-card img{
+  width:20vh;
+  height:auto;
+
+}
+.code-tags{
+  
+  display:flex;
+}
+.code-tags button{
+  background-color:#aeafe7;
+  color:black;
+  padding:5px;
+
+}
