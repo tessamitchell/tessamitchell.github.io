@@ -310,7 +310,7 @@ tr{
 
 
 .code-card img{
-  width:20vh;
+  width:30vh;
   height:auto;
 
 }
@@ -322,5 +322,5 @@ tr{
   background-color:#aeafe7;
   color:black;
   padding:5px;
-
+  border-color: #aeafe7;
 }
