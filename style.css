@@ -306,19 +306,24 @@ p {
   background-color: #eeb482;
   margin:10px;
 }
+.code-card p{
+  text-indent: 0em;
+}
+
 
 .code-card th{
   width:fit-content;
   text-align: left;
+  border-left-width: 10px;
 }
 
 .code-card img{
-  width:30vh;
+  width:20%;
   height:auto;
 
 }
 .code-tags{
-  
+  width:100%;
   display:flex;
 }
 .code-tags button{
@@ -326,4 +331,7 @@ p {
   color:black;
   padding:5px;
   border:none;
+  border-color:#333475;
+  border:2px;
+  margin-right:10%;
 }
