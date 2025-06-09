@@ -14,12 +14,12 @@
     box-sizing: border-box;
   }
   
-  html, body {
+html, body {
     width: 100%;
     margin: 0;
     padding: 0;
     height:100%;
-  }
+}
 
 body {
   background-color: rgb(205, 226, 229);
@@ -330,6 +330,7 @@ p {
   float:center;
 }
 .code-tags button{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color:#aeafe7;
   color:black;
   padding:5px;
@@ -344,6 +345,10 @@ p {
   padding-top:0.5em;
 }
 
+.code-info h6{
+  font-size:12px;
+  font-style: italic;
+}
 
 .gh img{
  
