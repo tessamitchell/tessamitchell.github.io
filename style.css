@@ -339,6 +339,20 @@ p {
   margin-left:5%;
   float:center;
 }
+.code-info p{
+  padding-top:1em;
+}
+
+.gh img{
+  height:1em;
+  width:auto;
+}
+.gh a{
+  text-decoration: none;
+}
+
+
+
 .code-brief .code-description th{
   width:fit-content;
   vertical-align: top;
@@ -346,9 +360,8 @@ p {
   border-left:1em;
   border-left-color: #eeb482;
 }
-.code-info p{
-    padding-top:1em;
-}
+
+
 
 .code-brief .code-description p{
   vertical-align:top;
