@@ -347,7 +347,7 @@ p {
   border-left-color: #eeb482;
 }
 .code-info p{
-    padding-top:2em;
+    padding-top:em;
 }
 
 .code-brief .code-description p{
