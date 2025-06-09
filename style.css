@@ -331,21 +331,24 @@ p {
 .code-tags button{
   background-color:#aeafe7;
   color:black;
-  padding:5px;
+  padding:10px;
   border:none;
   border-color:#333475;
   border:2px;
   margin-right:5%;
-  margin-left:5%
-  
+  margin-left:5%;
+  float:center;
 }
 .code-brief .code-description th{
   width:fit-content;
   vertical-align: top;
+  
   border-left:1em;
   border-left-color: #eeb482;
 }
-
+.code-info p{
+    padding-top:2em;
+}
 
 .code-brief .code-description p{
   vertical-align:top;
