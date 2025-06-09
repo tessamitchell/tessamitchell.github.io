@@ -343,13 +343,10 @@ p {
 .code-info p{
   padding-top:0.5em;
 }
-.code-info h2{
-  float:left;
 
-}
 
 .gh img{
-  float:right;
+ 
   height:1em;
   width:auto;
 }
