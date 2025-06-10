@@ -10,8 +10,18 @@ const datasample={
     tags:["Game Dev", "WPF","C#","XAML",".NET","Group Project"]
 };
 
-createCard(datasample);
+const datasample2={
+    name:"Twodle",
+    github:"https://github.com/tessamitchell/Twodle", 
+    brief:"These are words",
+    image:"https://tessamitchell.github.io/images/websitemockup.jpg",
+    description:"This app was developed for my C#/.NET class.",
+    date:"05-11-2025",
+    tags:["Game Dev", "WPF","C#",".NET","Group Project"]
+};
 
+createCard(datasample);
+createCard(datasample2);
 
 
 // data.forEach(project => createCard(project));
@@ -84,8 +94,13 @@ function createCard(project){
     for(let i=0;i<project.tags.length;i++){
         const tag=document.createElement("button");
         tag.textContent=project.tags[i];
+        tag.style.paddingLeft=40/project.tags.length;
+        tag.style.paddingRight=40/project.tags.length;
+
         tags.append(tag);
     }
+
+
 
 
     document.getElementById("mainbody").append(codeCard);
