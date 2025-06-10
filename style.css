@@ -347,6 +347,9 @@ p {
   margin-left:5%;
   float:center;
 }
+.code-info{
+  width:100%;
+}
 .code-info p{
   padding-top:0.5em;
 }
@@ -365,10 +368,10 @@ p {
 .gh a{
   text-decoration: none;
 }
-
-.gh{
-  float:right;
+.title{
+  display:inline;
 }
+
 
 .code-brief .code-description th{
   width:fit-content;

@@ -42,9 +42,13 @@ function createCard(project){
     col2.className="code-info";
     row1.append(col2);
 
-    const title=document.createElement("h2");
-    title.textContent=project.name;
+    const title=document.createElement("div");
+    title.className="title";
     col2.append(title);
+
+    const titletext=document.createElement("h2");
+    titletext.textContent=project.name;
+    title.append(titletext);
 
     if(project.github!=null){
         const githublink = document.createElement("a");
