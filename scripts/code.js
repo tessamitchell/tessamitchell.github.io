@@ -1,4 +1,4 @@
-import data from 'tessamitchell.github.io/data/codeprojects.json';
+//import data from 'tessamitchell.github.io/data/codeprojects.json';
 
 const datasample={
     name:"Twodle",
