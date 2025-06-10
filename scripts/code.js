@@ -21,6 +21,8 @@ function createCard(project){
     let codeCard=document.createElement("div");
     codeCard.className="code-card";
 
+    
+
     const table=document.createElement("table");
     codeCard.append(table);
 
@@ -80,5 +82,5 @@ function createCard(project){
         tags.append(tag);
     }
 
-
+    document.getElementById("mainbody").append(codeCard);
 }
