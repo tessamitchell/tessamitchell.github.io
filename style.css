@@ -313,7 +313,7 @@ p {
 
 
 .code-card th{
-  width:fit-content;
+  min-width:fit-content;
   text-align: left;
   border-left-width: 10px;
   padding-left:10px;

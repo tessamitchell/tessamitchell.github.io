@@ -55,7 +55,7 @@ function createCard(project){
         githublink.href=project.github;
         githublink.className="gh";
         githublink.target="_blank";
-        title.append(githublink);
+        titletext.append(githublink);
 
         const githubimg=document.createElement("img");
         githubimg.src="https://tessamitchell.github.io/images/githublogo.png";
