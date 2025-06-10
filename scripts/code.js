@@ -94,8 +94,8 @@ function createCard(project){
     for(let i=0;i<project.tags.length;i++){
         const tag=document.createElement("button");
         tag.textContent=project.tags[i];
-        tag.style.paddingLeft=20/project.tags.length;
-        tag.style.paddingRight=20/project.tags.length;
+        tag.style.paddingLeft=String(20/project.tags.length)+"%";
+        tag.style.paddingRight=String(20/project.tags.length)+"%";
 
         tags.append(tag);
     }
