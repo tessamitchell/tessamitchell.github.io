@@ -48,7 +48,7 @@ function createCard(project){
 
     if(project.github!=null){
         const githublink = document.createElement("a");
-        githublink.src=project.github;
+        githublink.href=project.github;
         githublink.className="gh";
         githublink.target="_blank";
         title.append(githublink);
