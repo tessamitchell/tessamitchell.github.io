@@ -4,7 +4,7 @@ const datasample={
     name:"Twodle",
     github:null, 
     brief:null,
-    image:"tessamitchell.github.io/images/websitemockup.jpg",
+    image:"https://tessamitchell.github.io/images/websitemockup.jpg",
     description:"This app was developed for my C#/.NET class.",
     date:"05-11-2025",
     tags:["Game Dev", "WPF","C#","XAML",".NET"]
@@ -54,7 +54,7 @@ function createCard(project){
         title.append(githublink);
 
         const githubimg=document.createElement("img");
-        githubimg.src="tessamitchell.github.io/images/githublogo.png";
+        githubimg.src="https://tessamitchell.github.io/images/githublogo.png";
         githublink.append(githubimg);
 
     }
@@ -65,18 +65,18 @@ function createCard(project){
 
     if(project.brief != null){
     const brief = document.createElement("p");
-    brief.textContent=project.brief;
+    brief.textContent="Brief: " + project.brief;
     col2.append(brief);
     }
 
     const description=document.createElement("p");
-    description.textContent=project.description;
+    description.textContent="Description: " + project.description;
     col2.append(description);
 
     const tags=document.createElement("div");
     tags.className="code-tags";
 
-    for(i=0;i<project.tags.length;i++){
+    for(let i=0;i<project.tags.length;i++){
         const tag=document.createElement("button");
         tag.textContent=project.tags[i];
         tags.append(tag);
