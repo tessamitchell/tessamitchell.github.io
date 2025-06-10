@@ -7,7 +7,7 @@ const datasample={
     image:"https://tessamitchell.github.io/images/websitemockup.jpg",
     description:"This app was developed for my C#/.NET class.",
     date:"05-11-2025",
-    tags:["Game Dev", "WPF","C#","XAML",".NET"]
+    tags:["Game Dev", "WPF","C#","XAML",".NET","Group Project"]
 };
 
 createCard(datasample);
