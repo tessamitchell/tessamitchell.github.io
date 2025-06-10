@@ -2,8 +2,8 @@
 
 const datasample={
     name:"Twodle",
-    github:null, 
-    brief:null,
+    github:"https://github.com/tessamitchell/Twodle", 
+    brief:"These are words",
     image:"https://tessamitchell.github.io/images/websitemockup.jpg",
     description:"This app was developed for my C#/.NET class.",
     date:"05-11-2025",
