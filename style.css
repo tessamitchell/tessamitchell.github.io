@@ -305,6 +305,7 @@ p {
   padding:10px;
   background-color: #eeb482;
   margin:10px;
+  margin-bottom:2%;
 }
 .code-card p{
   text-indent: 0em;
@@ -321,7 +322,7 @@ p {
 .code-card img{
   width:30vw;
   height:auto;
-
+  float:left;
 }
 .code-tags{
   padding-top:1em;
