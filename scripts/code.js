@@ -1,33 +1,20 @@
 import data from 'tessamitchell.github.io/data/codeprojects.json';
 
+const datasample={
+    name:"Twodle",
+    github:null, 
+    brief:null,
+    image:"tessamitchell.github.io/images/websitemockup.jpg",
+    description:"This app was developed for my C#/.NET class.",
+    date:"05-11-2025",
+    tags:["Game Dev", "WPF","C#","XAML",".NET"]
+};
 
-// <div class="code-card">
-//             <table>
-//                 <tr>
-//                     <th class="code-image">
-//                         <img src="images/websitemockup.jpg">
-//                     </th>
-//                     <th class="code-info">
-//                         <h2>Twodle
-//                             <a class="gh" href="https://github.com/tessamitchell/Twodle" target="_blank"><img src="images/githublogo.png"></a>
-//                         </h2>
-//                         <h6>05-11-2025</h6>
-//                         <p><b>Brief:</b> Class assignment to work with a partner to develop a desktop application of our choice.  There were nine requirements that we had to pick 8 of to employ, ranging from arrays to threading.</p>
-//                         <p><b>Description:</b> Me and my partner decided to build a Twodle game, which is essentially two games of Wordle being played at the same time where each guess applies to both games.</p>
-//                         <div class="code-tags">
-//                         <button>Game Dev</button>
-//                         <button>WPF</button>
-//                         <button>C#</button>
-//                         <button>.NET</button>
-//                         <button>Group</button>
-//                     </th>
-//                 </tr>
-                
-//             </table>
+createCard(datasample);
 
-                
-//             </div>
-data.forEach(createCard);
+
+
+// data.forEach(project => createCard(project));
 
 function createCard(project){
 
