@@ -367,7 +367,13 @@ p {
   text-decoration: none;
 }
 
+.title{
+  display: inline-block;
+}
 
+.title h6{
+  margin-left:10px;
+}
 
 .code-brief .code-description th{
   width:fit-content;

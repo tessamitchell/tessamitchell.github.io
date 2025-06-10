@@ -75,7 +75,7 @@ function createCard(project){
 
     const date= document.createElement("h6");
     date.textContent=project.date;
-    col2.append(date);
+    title.append(date);
 
     if(project.brief != null){
     const brief = document.createElement("p");
@@ -94,8 +94,8 @@ function createCard(project){
     for(let i=0;i<project.tags.length;i++){
         const tag=document.createElement("button");
         tag.textContent=project.tags[i];
-        tag.style.paddingLeft=String(20/project.tags.length)+"%";
-        tag.style.paddingRight=String(20/project.tags.length)+"%";
+        tag.style.marginLeft=String(20/project.tags.length)+"%";
+        tag.style.marginRight=String(20/project.tags.length)+"%";
 
         tags.append(tag);
     }
