@@ -21,7 +21,7 @@ const datasample2={
 };
 
 createCard(datasample);
-createCard(datasample2);
+//createCard(datasample2);
 
 
 // data.forEach(project => createCard(project));
