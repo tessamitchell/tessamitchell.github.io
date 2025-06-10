@@ -73,7 +73,7 @@ function createCard(project){
 
     }
 
-    const date= document.createElement("h6");
+    const date= document.createElement("small");
     date.textContent=project.date;
     title.append(date);
 
