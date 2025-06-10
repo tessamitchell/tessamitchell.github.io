@@ -305,7 +305,7 @@ p {
   padding:10px;
   background-color: #eeb482;
   margin:10px;
-  padding-bottom:2%;
+  margin-bottom:10%;
 }
 .code-card p{
   text-indent: 0em;
@@ -361,7 +361,8 @@ p {
 }
 
 .gh img{
- 
+  float:right;
+  padding-right:10%;
   height:1em;
   width:auto;
 }
