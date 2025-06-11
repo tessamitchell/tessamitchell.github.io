@@ -377,6 +377,7 @@ p {
   font-style: italic;
   vertical-align: bottom;
   margin-left:.5em;
+  margin-bottom: 0px;
 }
 
 .title h6{
