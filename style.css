@@ -334,6 +334,8 @@ p {
   margin-bottom:0;
   padding-bottom:0;
   vertical-align: bottom;
+  display:flex;
+  flex-wrap: wrap;
 }
 .code-tags button{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -368,7 +370,11 @@ p {
 }
 
 .title{
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+}
+.title small{
+  font-style: italic;
 }
 
 .title h6{
