@@ -23,7 +23,7 @@ const datasample2={
 createCard(datasample);
 createCard(datasample2);
 
-
+const allCards=[];
 // data.forEach(project => createCard(project));
 
 function createCard(project){
@@ -104,4 +104,19 @@ function createCard(project){
 
 
     document.getElementById("mainbody").append(codeCard);
+
+    allCards.append(codeCard);
+}
+
+
+function sortbydate(){
+
+}
+
+function sortbyname(){
+
+}
+
+function sortbytag(tag){
+
 }

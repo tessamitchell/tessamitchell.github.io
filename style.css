@@ -364,6 +364,7 @@ p {
   margin-right:.5em;
   height:.9em;
   margin-bottom:0px;
+  padding-bottom: 0px;
   width:auto;
 }
 .gh a{
@@ -379,6 +380,8 @@ p {
   vertical-align: bottom;
   margin-left:.5em;
   margin-bottom: 0px;
+  padding: top 100% bottom 0%;
+
 }
 
 .title h6{
