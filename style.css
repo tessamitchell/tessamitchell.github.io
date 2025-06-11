@@ -361,8 +361,8 @@ p {
 }
 
 .gh img{
-  margin-right:1em;
-  height:1em;
+  margin-right:.5em;
+  height:.9em;
   width:auto;
 }
 .gh a{
@@ -375,6 +375,8 @@ p {
 }
 .title small{
   font-style: italic;
+  vertical-align: bottom;
+  margin-left:.5em;
 }
 
 .title h6{
