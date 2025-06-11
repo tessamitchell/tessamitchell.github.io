@@ -363,6 +363,7 @@ p {
 .gh img{
   margin-right:.5em;
   height:.9em;
+  margin-bottom:0px;
   width:auto;
 }
 .gh a{
