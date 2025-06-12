@@ -36,15 +36,21 @@ function fetchJSONData() {
             }
             return response.json();  
         })
-        .then(data => console.log(data))  
+        .then(data => {console.log(data);
+            for(let i=0;i<data.length;i++){
+                data[i].date=new Date(data[i].date);
+                //print(data[i]);
+            
+            }
+        })  
         .catch(error => console.error('Failed to fetch data:', error)); 
 }
 
-let data=fetchJSONData(); 
-for(let i=0;i<data.length;i++){
-    data[i].date=new Date(data[i].date);
-    //print(data[i]);
-}
+fetchJSONData(); 
+let tags=[];
+
+
+data.sort((a, b) => a.date - b.date)
 
 
 data.forEach(project => createCard(project));
