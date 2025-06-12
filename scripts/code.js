@@ -1,6 +1,6 @@
 
 let allCards=[];
-
+let allTags=[];
 
 
 function fetchJSONData() {
@@ -128,9 +128,14 @@ function createCard(project){
         
         tag.style.marginRight=String(40/project.tags.length)+"%";
         
-        tag.onclick=() => sortbytag(project.tags[i]);
+        tag.onclick=() => filterbytag(project.tags[i]);
 
         tags.append(tag);
+
+        if(!allTags.includes(project.tags[i])){
+            allTags.push(project.tags[i]);
+        }
+
     }
 
 
@@ -146,23 +151,27 @@ function createCard(project){
 
 
 
-function sortbydate(){
+function sortby(){
+    
+    
+    
     return;
 }
 
-function sortbyname(){
-    return;
-}
 
-function sortbytag(tag){
+function filterbytag(tag){
     for(let i=0;i<allCards.length;i++){
         let currenttags=allCards[i].getElementsByName("tag");
-        if(currenttags.includes(tag)){
-            allCards[i].style.display="";
+        for(let i=0;i<currenttags.length;i++){
+            if(currenttags.textContent==tag){
+                allCards[i].style.display="";
+            }
+            else{
+                allCards[i].style.display="none";
+            }
         }
-        else{
-            allCards[i].style.display="none";
-        }
+        
+        
     }
     
     
