@@ -4,7 +4,7 @@
         "name":"Twodle",
         "github":null, 
         "brief":null,
-        "image":"tessamitchell.github.io/images/websitemockup.jpg",
+        "image":"https://tessamitchell.github.io/images/websitemockup.jpg",
         "description":"This app was developed for my C#/.NET class.",
         "date":"2025-05-11",
         "tags":["Game Dev", "WPF","C#","XAML",".NET"]

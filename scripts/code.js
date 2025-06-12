@@ -1,5 +1,5 @@
-import data from 'https://tessamitchell.github.io/data/codeprojects.json';
-console.log(data);
+
+
 
 const datasample={
     name:"Twodle",
@@ -29,7 +29,7 @@ let allCards=[];
 
 
 function fetchJSONData() {
-    fetch('tessamitchell.github.io/data/codeprojects.json')
+    fetch('https://tessamitchell.github.io/data/codeprojects.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
@@ -40,7 +40,7 @@ function fetchJSONData() {
         .catch(error => console.error('Failed to fetch data:', error)); 
 }
 
-// let data=fetchJSONData(); 
+let data=fetchJSONData(); 
 for(let i=0;i<data.length;i++){
     data[i].date=new Date(data[i].date);
     //print(data[i]);
