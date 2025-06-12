@@ -118,14 +118,14 @@ function createCard(project){
 
 
 
-function sortbydate(){
+// function sortbydate(){
 
-}
+// }
 
-function sortbyname(){
+// function sortbyname(){
 
-}
+// }
 
-function sortbytag(tag){
+// function sortbytag(tag){
 
-}
+// }
