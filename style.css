@@ -306,13 +306,15 @@ p {
   background-color: #eeb482;
   margin:10px;
   margin-bottom:20px; 
+  display:flex;
 }
 .code-card p{
   text-indent: 0em;
 }
 
 
-.code-card th{
+
+.code-card div{
   min-width:fit-content;
   text-align: left;
   border-left-width: 10px;
