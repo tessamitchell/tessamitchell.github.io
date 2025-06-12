@@ -1,4 +1,4 @@
-import data from 'tessamitchell.github.io/data/codeprojects.json';
+import data from 'https://tessamitchell.github.io/data/codeprojects.json';
 console.log(data);
 
 const datasample={
@@ -41,10 +41,10 @@ function fetchJSONData() {
 }
 
 // let data=fetchJSONData(); 
-// for(let i=0;i<data.length;i++){
-//     data[i].date=new Date(data[i].date);
-//     print(data[i]);
-// }
+for(let i=0;i<data.length;i++){
+    data[i].date=new Date(data[i].date);
+    //print(data[i]);
+}
 
 
 data.forEach(project => createCard(project));
