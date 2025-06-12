@@ -2,7 +2,7 @@
 [
     {
         "name":"Twodle",
-        "github":null, 
+        "github":"https://github.com/tessamitchell/Twodle", 
         "brief":null,
         "image":"https://tessamitchell.github.io/images/websitemockup.jpg",
         "description":"This app was developed for my C#/.NET class.",

@@ -39,13 +39,13 @@ function fetchJSONData() {
         .then(data => {
             console.log(data);
 
-            // Ensure dates are Date objects
+            // convert dates to Dates (better sorting)
             data.forEach(project => {
                 project.date = new Date(project.date);
             });
 
             // Sort and create cards
-            data.sort((a, b) => a.date - b.date);
+            data.sort((a, b) =>  b.date - a.date); // sort by most recent
             data.forEach(project => createCard(project));
         })  
         .catch(error => console.error('Failed to fetch data:', error)); 
