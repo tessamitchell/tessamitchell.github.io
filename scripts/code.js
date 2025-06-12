@@ -36,24 +36,24 @@ function fetchJSONData() {
             }
             return response.json();  
         })
-        .then(data => {console.log(data);
-            for(let i=0;i<data.length;i++){
-                data[i].date=new Date(data[i].date);
-                //print(data[i]);
-            
-            }
+        .then(data => {
+            console.log(data);
+
+            // Ensure dates are Date objects
+            data.forEach(project => {
+                project.date = new Date(project.date);
+            });
+
+            // Sort and create cards
+            data.sort((a, b) => a.date - b.date);
+            data.forEach(project => createCard(project));
         })  
         .catch(error => console.error('Failed to fetch data:', error)); 
 }
-
-fetchJSONData(); 
-let tags=[];
+fetchJSONData();
 
 
-data.sort((a, b) => a.date - b.date)
 
-
-data.forEach(project => createCard(project));
 
 
 function createCard(project){
