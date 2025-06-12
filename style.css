@@ -361,7 +361,7 @@ p {
 }
 
 .gh img{
-  margin-right:.5em;
+  margin-right:.4em;
   height:.9em;
   margin-bottom:0px;
   padding-bottom: 0px;
@@ -374,6 +374,7 @@ p {
 .title{
   display: flex;
   flex-wrap: wrap;
+  align-items: baseline;
 }
 .title small{
   font-style: italic;
