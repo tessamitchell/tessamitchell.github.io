@@ -144,6 +144,7 @@ p {
   top:10vh-2px;
   
   transform: translateX(-3%);
+  
 }
 
 /* Links inside the dropdown */
@@ -170,6 +171,8 @@ p {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+  transition-duration: .2s;
+  transform:translateY(0);
 }
 
 
