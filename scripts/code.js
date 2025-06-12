@@ -88,6 +88,7 @@ function createCard(project){
 
     const titletext=document.createElement("h2");
     titletext.textContent=project.name;
+    titletext.id="titletext";
     title.append(titletext);
 
     if(project.github!=null){
@@ -153,6 +154,7 @@ function createCard(project){
 
 function sortby(){
     
+    allCards.sort((a,b) => {a.getElementById("titletext").textContent - b.getElementById("titletext").textContent})
     
     
     return;

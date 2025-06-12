@@ -415,3 +415,8 @@ p {
 .code-brief .code-description p{
   vertical-align:top;
 }
+
+.filter-tags{
+  width:100%;
+  background-color: #333475;
+}
