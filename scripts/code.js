@@ -6,7 +6,7 @@ const datasample={
     brief:"These are words",
     image:"https://tessamitchell.github.io/images/websitemockup.jpg",
     description:"This app was developed for my C#/.NET class.",
-    date:"05-11-2025",
+    date:"2025-05-11",
     tags:["Game Dev", "WPF","C#","XAML",".NET","Group Project"]
 };
 
@@ -16,15 +16,37 @@ const datasample2={
     brief:"Final project for my C#/.NET class. A partner project where we had to develop a desktop application of our choice. There were nine requirements that we had to pick 8 of to employ, ranging from arrays to threading.",
     image:"https://tessamitchell.github.io/images/websitemockup.jpg",
     description:"Me and my partner built a Twodle game, which is essentially two games of Wordle being played at the same time where each guess applies to both games.  The work was split pretty evenly, with the two of us collaborating on how to do it, and switching off tasks.",
-    date:"05-11-2025",
+    date:"2025-05-11",
     tags:["Game Dev", "WPF","C#",".NET","Group Project"]
 };
 
-createCard(datasample);
-createCard(datasample2);
+//createCard(datasample);
+//createCard(datasample2);
 
 let allCards=[];
-// data.forEach(project => createCard(project));
+
+
+
+function fetchJSONData() {
+    fetch('tessamitchell.github.io/data/codeprojects.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.json();  
+        })
+        .then(data => console.log(data))  
+        .catch(error => console.error('Failed to fetch data:', error)); 
+}
+
+let data=fetchJSONData(); 
+for(let i=0;i<data.length;i++){
+    data[i].date=new Date(data[i].date);
+}
+
+
+data.forEach(project => createCard(project));
+
 
 function createCard(project){
 
@@ -107,6 +129,10 @@ function createCard(project){
 
     allCards.append(codeCard);
 }
+
+
+
+
 
 
 function sortbydate(){

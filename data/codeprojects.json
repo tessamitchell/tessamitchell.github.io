@@ -1,16 +1,16 @@
 
-{
-    "project1":{
+[
+    {
         "name":"Twodle",
         "github":null, 
         "brief":null,
         "image":"tessamitchell.github.io/images/websitemockup.jpg",
         "description":"This app was developed for my C#/.NET class.",
-        "date":"05-11-2025",
+        "date":"2025-05-11",
         "tags":["Game Dev", "WPF","C#","XAML",".NET"]
     },
 
-    "project2":{
+    {
         "name":"",
         "github":null, 
         "brief":null,
@@ -19,4 +19,4 @@
         "date":"",
         "tags":[]
     }
-}
+]
