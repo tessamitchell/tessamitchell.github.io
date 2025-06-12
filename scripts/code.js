@@ -1,29 +1,4 @@
 
-
-
-const datasample={
-    name:"Twodle",
-    github:"https://github.com/tessamitchell/Twodle", 
-    brief:"These are words",
-    image:"https://tessamitchell.github.io/images/websitemockup.jpg",
-    description:"This app was developed for my C#/.NET class.",
-    date:"2025-05-11",
-    tags:["Game Dev", "WPF","C#","XAML",".NET","Group Project"]
-};
-
-const datasample2={
-    name:"Twodle",
-    github:null, 
-    brief:"Final project for my C#/.NET class. A partner project where we had to develop a desktop application of our choice. There were nine requirements that we had to pick 8 of to employ, ranging from arrays to threading.",
-    image:"https://tessamitchell.github.io/images/websitemockup.jpg",
-    description:"Me and my partner built a Twodle game, which is essentially two games of Wordle being played at the same time where each guess applies to both games.  The work was split pretty evenly, with the two of us collaborating on how to do it, and switching off tasks.",
-    date:"2025-05-11",
-    tags:["Game Dev", "WPF","C#",".NET","Group Project"]
-};
-
-//createCard(datasample);
-//createCard(datasample2);
-
 let allCards=[];
 
 
@@ -135,7 +110,7 @@ function createCard(project){
 
     document.getElementById("mainbody").append(codeCard);
 
-    //allCards.append(codeCard);
+    allCards.append(codeCard);
 }
 
 
@@ -143,14 +118,14 @@ function createCard(project){
 
 
 
-// function sortbydate(){
+function sortbydate(){
 
-// }
+}
 
-// function sortbyname(){
+function sortbyname(){
 
-// }
+}
 
-// function sortbytag(tag){
+function sortbytag(tag){
 
-// }
+}
