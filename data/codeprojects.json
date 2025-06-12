@@ -7,7 +7,7 @@
         "image":"https://tessamitchell.github.io/images/websitemockup.jpg",
         "description":"Me and my partner built a Twodle game, which is essentially two games of Wordle being played at the same time where each guess applies to both games.  The work was split pretty evenly, with the two of us collaborating on how to do it, and switching off tasks.",
         "date":"2025-05-11",
-        "tags":["Game Dev", "WPF","C#","XAML",".NET"]
+        "tags":["Game Dev", "WPF","C#","XAML",".NET","Group Project"]
     },
 
     {
