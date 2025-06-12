@@ -11,6 +11,18 @@
     },
 
     {
+        "name":"TV Rex",
+        "github":"https://github.com/AndrewLHellman/TVShowTracker", 
+        "brief":null,
+        "image":"https://tessamitchell.github.io/images/websitemockup.jpg",
+        "description":"This website was developed for TigerHacks, Mizzou's annual hackathon.",
+        "date":"2023-11-05",
+        "tags":["Web Dev", "Python","API","Group Project"]
+    },
+
+
+
+    {
         "name":"",
         "github":null, 
         "brief":null,

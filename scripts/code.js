@@ -104,7 +104,7 @@ function createCard(project){
     }
 
     const date= document.createElement("small");
-    date.textContent=project.date;
+    date.textContent= String(project.date.getUTCMonth()+1)+"-"+String(project.date.getUTCDate())+"-"+String(project.date.getUTCFullYear());
     title.append(date);
 
     if(project.brief != null){
