@@ -15,9 +15,9 @@ function fetchJSONData() {
             console.log(data);
 
             // convert dates to Dates (better sorting)
-            data.forEach(project => {
-                project.date = new Date(project.date);
-            });
+            // data.forEach(project => {
+            //     project.date = new Date(project.date);
+            // });
 
             // Sort and create cards
             data.sort((a, b) =>  b.date - a.date); // sort by most recent
@@ -105,7 +105,9 @@ function createCard(project){
     }
 
     const date= document.createElement("small");
-    date.textContent= String(project.date.getUTCMonth()+1)+"-"+String(project.date.getUTCDate())+"-"+String(project.date.getUTCFullYear());
+    // date.textContent= String(project.date.getUTCMonth()+1)+"-"+String(project.date.getUTCDate())+"-"+String(project.date.getUTCFullYear());
+    date.textContent=project.date;
+    date.id="date";
     title.append(date);
 
     if(project.brief != null){
@@ -125,7 +127,7 @@ function createCard(project){
     for(let i=0;i<project.tags.length;i++){
         const tag=document.createElement("button");
         tag.textContent=project.tags[i];
-        tag.className="tag";
+        tag.className="tag-button";
         
         tag.style.marginRight=String(40/project.tags.length)+"%";
         
@@ -153,8 +155,21 @@ function createCard(project){
 
 
 function sortby(){
+    let sender=document.getElementById("sort");
+    if(sender.value=="date"){
+        allCards.sort((a,b) => {a.getElementById("titletext").textContent - b.getElementById("titletext").textContent})
+    }
+    else{
+        allCards.sort((a,b) => {a.getElementById("date").textContent - b.getElementById("date").textContent})
+    }
+
+    for(let i=0;i<allCards.length;i++){
+        
+        allCards[i].style.display="none";
+        
+    }
+    removefilters();
     
-    allCards.sort((a,b) => {a.getElementById("titletext").textContent - b.getElementById("titletext").textContent})
     
     
     return;
@@ -163,16 +178,23 @@ function sortby(){
 
 function filterbytag(tag){
     for(let i=0;i<allCards.length;i++){
-        let currenttags=allCards[i].getElementsByName("tag");
-        for(let i=0;i<currenttags.length;i++){
-            if(currenttags.textContent==tag){
-                allCards[i].style.display="";
-            }
-            else{
-                allCards[i].style.display="none";
-            }
-        }
+        // let currenttags=allCards[i].getElementsByName("tag");
+        // for(let i=0;i<currenttags.length;i++){
+        //     if(currenttags.textContent==tag){
+        //         allCards[i].style.display="";
+        //     }
+        //     else{
+        //         allCards[i].style.display="none";
+        //     }
+        // }
         
+        let tagButtons = allCards[i].querySelectorAll(".tag-button");
+
+        // Check if any of the tag buttons matches the tag we’re filtering by
+        let hasTag = Array.from(tagButtons).some(btn => btn.textContent === tagToMatch);
+
+        // Show or hide the card accordingly
+        allCards[i].style.display = hasTag ? "" : "none";
         
     }
     
