@@ -23,7 +23,7 @@ const datasample2={
 createCard(datasample);
 createCard(datasample2);
 
-const allCards=[];
+let allCards=[];
 // data.forEach(project => createCard(project));
 
 function createCard(project){
