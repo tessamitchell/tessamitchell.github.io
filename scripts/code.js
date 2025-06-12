@@ -125,8 +125,8 @@ function createCard(project){
         const tag=document.createElement("button");
         tag.textContent=project.tags[i];
         tag.className="tag";
-        tag.style.marginLeft=String(20/project.tags.length)+"%";
-        tag.style.marginRight=String(20/project.tags.length)+"%";
+        
+        tag.style.marginRight=String(40/project.tags.length)+"%";
         
         tag.onclick="sortbytag("+project.tags[i]+")";
 
@@ -167,4 +167,12 @@ function sortbytag(tag){
     
     
     return;
+}
+
+function removefilters(){
+    for(let i=0;i<allCards.length;i++){
+        
+        allCards[i].style.display="";
+        
+    }
 }
