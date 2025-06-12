@@ -42,6 +42,7 @@ function fetchJSONData() {
 let data=fetchJSONData(); 
 for(let i=0;i<data.length;i++){
     data[i].date=new Date(data[i].date);
+    print(data[i]);
 }
 
 
