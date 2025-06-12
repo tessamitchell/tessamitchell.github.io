@@ -38,45 +38,45 @@ function createCard(project){
 
     
 
-    // const table=document.createElement("table");
-    // codeCard.append(table);
-
-    // const row1=document.createElement("tr");
-    // table.append(row1);
-
-    // const col1=document.createElement("th")
-    // col1.className="code-image";
-
-    // row1.append(col1);
-
-    // const image=document.createElement("img");
-    // image.setAttribute("src",project.image);
-    // col1.append(image);
-
-    // const col2=document.createElement("th");
-    // col2.className="code-info";
-    // row1.append(col2);
-
-
-    const table=document.createElement("div");
-    table.className="codecontainer";
+    const table=document.createElement("table");
     codeCard.append(table);
 
-    // const row1=document.createElement("tr");
-    // table.append(row1);
+    const row1=document.createElement("tr");
+    table.append(row1);
 
-    const col1=document.createElement("div")
+    const col1=document.createElement("th")
     col1.className="code-image";
 
-    table.append(col1);
+    row1.append(col1);
 
     const image=document.createElement("img");
     image.setAttribute("src",project.image);
     col1.append(image);
 
-    const col2=document.createElement("div");
+    const col2=document.createElement("th");
     col2.className="code-info";
-    table.append(col2);
+    row1.append(col2);
+
+
+    // const table=document.createElement("div");
+    // table.className="codecontainer";
+    // codeCard.append(table);
+
+    // // const row1=document.createElement("tr");
+    // // table.append(row1);
+
+    // const col1=document.createElement("div")
+    // col1.className="code-image";
+
+    // table.append(col1);
+
+    // const image=document.createElement("img");
+    // image.setAttribute("src",project.image);
+    // col1.append(image);
+
+    // const col2=document.createElement("div");
+    // col2.className="code-info";
+    // table.append(col2);
 
 
 
@@ -124,6 +124,7 @@ function createCard(project){
     for(let i=0;i<project.tags.length;i++){
         const tag=document.createElement("button");
         tag.textContent=project.tags[i];
+        tag.className="tag";
         tag.style.marginLeft=String(20/project.tags.length)+"%";
         tag.style.marginRight=String(20/project.tags.length)+"%";
 
@@ -144,13 +145,24 @@ function createCard(project){
 
 
 function sortbydate(){
-
+    return;
 }
 
 function sortbyname(){
-
+    return;
 }
 
 function sortbytag(tag){
-
+    for(let i=0;i<allCards.length;i++){
+        let currenttags=allCards[i].getElementsByName("tag");
+        if(currenttags.includes(tag)){
+            allCards[i].style.display="";
+        }
+        else{
+            allCards[i].style.display="none";
+        }
+    }
+    
+    
+    return;
 }
