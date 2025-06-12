@@ -348,13 +348,13 @@ p {
   border-color:#333475;
   border:2px;
   float:center;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
 }
 
 .code-tags button:hover{
   transition-duration: .2s;
   box-shadow: none;
-  translate:2px 2px;
+  translate:1px 1px;
 }
 
 .code-info{
