@@ -128,7 +128,7 @@ function createCard(project){
         
         tag.style.marginRight=String(40/project.tags.length)+"%";
         
-        tag.onclick="sortbytag("+project.tags[i]+")";
+        tag.onclick=() => sortbytag(project.tags[i]);
 
         tags.append(tag);
     }
