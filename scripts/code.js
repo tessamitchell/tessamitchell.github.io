@@ -210,9 +210,8 @@ function filterbytag(tag){
     }
     
     let allFilters=document.getElementById("filter-tags").querySelectorAll(".tag-filter");;
-    let i=allFilters.findIndex(filter=>{});
-    allFilters.forEach(tag=>{
-        allFilters[i].style.backgroundColor = (filter.textContent===tag) ? "#aeafe7" :"#9090bc";
+    allFilters.forEach(filter=>{
+        filter.style.backgroundColor = (filter.textContent===tag) ? "#aeafe7" :"#626280";
     })
     document.getElementById("clear-btn").style.display="";
 
