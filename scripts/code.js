@@ -175,13 +175,13 @@ function sortby(){
     let sender=document.getElementById("sort");
     let main=document.getElementById("mainbody");
     if(sender.value=="name"){
-        allCards.sort((a,b) => {a.getElementById("titletext").textContent - b.getElementById("titletext").textContent});
+        allCards.sort((a,b) => {a.querySelector("#titletext").textContent - b.querySelector("#titletext").textContent});
     }
     else if(sender.value=="date up"){
-        allCards.sort((a,b) => {new Date(a.getElementById("date").textContent) - new Date(b.getElementById("date").textContent)});
+        allCards.sort((a,b) => {new Date(a.querySelector("#date").textContent) - new Date(b.querySelector("#date").textContent)});
     }
     else{
-        allCards.sort((a,b) => {new Date(b.getElementById("date").textContent) - new Date(a.getElementById("date").textContent)});
+        allCards.sort((a,b) => {new Date(b.querySelector("#date").textContent) - new Date(a.querySelector("#date").textContent)});
         
     }
     // clear cards from screen
@@ -209,7 +209,7 @@ function filterbytag(tag){
         let tagButtons = allCards[i].querySelectorAll(".tag-button");
 
         // Check if any of the tag buttons matches the tag we’re filtering by
-        let hasTag = Array.from(tagButtons).some(btn => btn.textContent === tagToMatch);
+        let hasTag = Array.from(tagButtons).some(btn => btn.textContent === tag);
 
         // Show or hide the card accordingly
         allCards[i].style.display = hasTag ? "" : "none";
