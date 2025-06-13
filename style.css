@@ -78,7 +78,7 @@ p {
     left:10px;
     float: left;
     color: white;
-    font-weight: bold;
+
   }
 .topnav-left a{
     font-size: 25px;
@@ -417,12 +417,12 @@ p {
 }
 
 .filters{
-  width:100%;
+  /* width:100%; */
   min-height:fit-content;
   height:10%;
   margin:10px;
   padding:10px;
-  padding-right:10px;
+  /* padding-right:10px; */
   background-color:#333475;
   color:aliceblue;
   display: flex;
