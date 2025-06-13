@@ -22,6 +22,7 @@ function fetchJSONData() {
             // Sort and create cards
             data.sort((a, b) =>  b.date - a.date); // sort by most recent
             data.forEach(project => createCard(project));
+            addTags();
         })  
         .catch(error => console.error('Failed to fetch data:', error)); 
 }
@@ -149,7 +150,21 @@ function createCard(project){
     allCards.push(codeCard);
 }
 
+function addTags(){
+    let filtertags=document.getElementById("filter-tags");
+    for(let i=0;i<allTags.length;i++){
+        const tag=document.createElement("button");
+        tag.textContent=allTags[i];
+        tag.className="tag-button";
+        
+        tag.style.marginRight=String(40/allTags.length)+"%";
+        
+        tag.onclick=() => filterbytag(allTags[i]);
 
+        filtertags.append(tag);
+    }
+
+}
 
 
 
