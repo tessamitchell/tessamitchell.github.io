@@ -147,7 +147,7 @@ function createCard(project){
 
 
 
-    document.getElementById("mainbody").append(codeCard);
+    document.getElementById("code-cards-container").append(codeCard);
 
     allCards.push(codeCard);
 }
@@ -173,7 +173,7 @@ function addTags(){
 
 function sortby(){
     let sender=document.getElementById("sort");
-    let main=document.getElementById("code-cards-container" );
+    let main=document.getElementById("code-cards-container");
     if(sender.value=="name"){
         allCards.sort((a,b) => {a.querySelector("#titletext").textContent - b.querySelector("#titletext").textContent});
     }
@@ -196,19 +196,11 @@ function sortby(){
 
 function filterbytag(tag){
     for(let i=0;i<allCards.length;i++){
-        // let currenttags=allCards[i].getElementsByName("tag");
-        // for(let i=0;i<currenttags.length;i++){
-        //     if(currenttags.textContent==tag){
-        //         allCards[i].style.display="";
-        //     }
-        //     else{
-        //         allCards[i].style.display="none";
-        //     }
-        // }
+          
         
         let tagButtons = allCards[i].querySelectorAll(".tag-button");
 
-        // Check if any of the tag buttons matches the tag we’re filtering by
+        // Check if any of the tag buttons match the filter
         let hasTag = Array.from(tagButtons).some(btn => btn.textContent === tag);
 
         // Show or hide the card accordingly
