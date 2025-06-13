@@ -29,7 +29,8 @@ function fetchJSONData() {
 }
 fetchJSONData();
 
-
+let sortdesc = document.getElementById("sort");
+sortdesc.addEventListener("change",sortby);
 
 
 
