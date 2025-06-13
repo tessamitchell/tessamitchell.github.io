@@ -157,7 +157,7 @@ function addTags(){
     for(let i=0;i<allTags.length;i++){
         const tag=document.createElement("button");
         tag.textContent=allTags[i];
-        tag.className="tag-button";
+        tag.className="tag-filter";
         
         tag.style.marginRight=String(30/allTags.length)+"%";
         
@@ -196,20 +196,23 @@ function sortby(){
 
 function filterbytag(tag){
     for(let i=0;i<allCards.length;i++){
-          
-        
+           
         let tagButtons = allCards[i].querySelectorAll(".tag-button");
+        
+        if(Array.from(tagButtons).some(btn => btn.textContent === tag)){
+            allCards[i].style.display = "";
+        }
+        else{
 
-        // Check if any of the tag buttons match the filter
-        let hasTag = Array.from(tagButtons).some(btn => btn.textContent === tag);
-
-        // Show or hide the card accordingly
-        allCards[i].style.display = hasTag ? "" : "none";
+            allCards[i].style.display = "none";
+        }
         
     }
     
-    
-    return;
+    let allFilters=document.getElementById("filter-tags").querySelectorAll(".tag-filter");;
+    let i=allFilters.findIndex(filter=>{filter.textContent===tag});
+    allFilters[i].style.backgroundcolor="#9090bc";
+
 }
 
 function removefilters(){

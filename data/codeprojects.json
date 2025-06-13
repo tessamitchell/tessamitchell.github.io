@@ -28,7 +28,15 @@
         "description":"I made a basic book tracking program, inspired by Goodreads, but ideally with more customizable reading challenges.  This was my first time using SQL and incorporating it with another program, so I tried to keep it relatively simple for the purpose of this assignment.",
         "date":"2025-05-07",
         "tags":["Databases", "Python","Console App","SQL"]
+    },
+    {
+        "name":"Portfolio Website",
+        "github":"https://github.com/tessamitchell/tessamitchell.github.io", 
+        "brief":null,
+        "image":"https://tessamitchell.github.io/images/websitemockup.jpg",
+        "description":"This project is the website you're currently looking at.  It is my first time working with html/css since I was in 7th grade and learned basic HTML in my computers class, which also means I retaught myself all of that and much more in order to build this website.",
+        "date":"2025-06-20",
+        "tags":["Web Dev", "HTML/CSS","JavaScript","Front-End"]
     }
-
   
 ]
