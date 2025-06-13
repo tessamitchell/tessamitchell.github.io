@@ -156,20 +156,17 @@ function createCard(project){
 
 function sortby(){
     let sender=document.getElementById("sort");
-    if(sender.value=="date"){
+    let main=document.getElementById("mainbody");
+    if(sender.value=="name"){
         allCards.sort((a,b) => {a.getElementById("titletext").textContent - b.getElementById("titletext").textContent})
     }
     else{
         allCards.sort((a,b) => {a.getElementById("date").textContent - b.getElementById("date").textContent})
     }
+    // clear cards from screen
+    main.innerHTML = "";
 
-    for(let i=0;i<allCards.length;i++){
-        
-        allCards[i].style.display="none";
-        
-    }
-    removefilters();
-    
+    allCards.forEach(card => main.append(card));
     
     
     return;
