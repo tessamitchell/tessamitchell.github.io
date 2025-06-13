@@ -20,7 +20,8 @@ function fetchJSONData() {
             // });
 
             // Sort and create cards
-            data.sort((a, b) =>  b.date - a.date); // sort by most recent
+            data.sort((a, b) =>  a.date - b.date); // sort by most recent
+            data.reverse();
             data.forEach(project => createCard(project));
             addTags();
         })  
