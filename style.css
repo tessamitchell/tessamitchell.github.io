@@ -424,6 +424,8 @@ p {
   padding:10px;
   background-color:#333475;
   color:aliceblue;
+  display: flexbox;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .filter-tags{
@@ -433,7 +435,13 @@ p {
 
 .filters select, label{
   float:right;
-
+  padding:10px;
+}
+.filters select{
+  background-color: antiquewhite;
+  color:#333475;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
 }
 
 
