@@ -173,7 +173,7 @@ function addTags(){
 
 function sortby(){
     let sender=document.getElementById("sort");
-    let main=document.getElementById("code-cards-container");
+    let container=document.getElementById("code-cards-container");
     if(sender.value=="name"){
         allCards.sort((a,b) => {a.querySelector("#titletext").textContent - b.querySelector("#titletext").textContent});
     }
@@ -185,9 +185,9 @@ function sortby(){
         
     }
     // clear cards from screen
-    main.innerHTML = "";
+    container.innerHTML = "";
 
-    allCards.forEach(card => main.append(card));
+    allCards.forEach(card => container.append(card));
     
     
     return;
@@ -210,8 +210,11 @@ function filterbytag(tag){
     }
     
     let allFilters=document.getElementById("filter-tags").querySelectorAll(".tag-filter");;
-    let i=allFilters.findIndex(filter=>{filter.textContent===tag});
-    allFilters[i].style.backgroundcolor="#9090bc";
+    let i=allFilters.findIndex(filter=>{});
+    allFilters.forEach(tag=>{
+        allFilters[i].style.backgroundcolor = (filter.textContent===tag) ? "#aeafe7" :"#9090bc";
+    })
+    document.getElementById("clear-btn").style.display="";
 
 }
 
@@ -221,4 +224,11 @@ function removefilters(){
         allCards[i].style.display="";
         
     }
+    let allFilters=document.getElementById("filter-tags").querySelectorAll(".tag-filter");;
+    let i=allFilters.findIndex(filter=>{});
+    allFilters.forEach(tag=>{
+        allFilters[i].style.backgroundcolor="#aeafe7" ;
+    })
+
+    document.getElementById("clear-btn").style.display="none";
 }
