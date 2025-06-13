@@ -157,7 +157,7 @@ function addTags(){
         tag.textContent=allTags[i];
         tag.className="tag-button";
         
-        tag.style.marginRight=String(40/allTags.length)+"%";
+        tag.style.marginRight=String(30/allTags.length)+"%";
         
         tag.onclick=() => filterbytag(allTags[i]);
 
