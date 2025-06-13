@@ -173,7 +173,7 @@ function addTags(){
 
 function sortby(){
     let sender=document.getElementById("sort");
-    let main=document.getElementById("mainbody");
+    let main=document.getElementById("code-cards-container" );
     if(sender.value=="name"){
         allCards.sort((a,b) => {a.querySelector("#titletext").textContent - b.querySelector("#titletext").textContent});
     }
