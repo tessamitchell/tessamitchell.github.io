@@ -212,7 +212,7 @@ function filterbytag(tag){
     let allFilters=document.getElementById("filter-tags").querySelectorAll(".tag-filter");;
     let i=allFilters.findIndex(filter=>{});
     allFilters.forEach(tag=>{
-        allFilters[i].style.backgroundcolor = (filter.textContent===tag) ? "#aeafe7" :"#9090bc";
+        allFilters[i].style.backgroundColor = (filter.textContent===tag) ? "#aeafe7" :"#9090bc";
     })
     document.getElementById("clear-btn").style.display="";
 
@@ -227,7 +227,7 @@ function removefilters(){
     let allFilters=document.getElementById("filter-tags").querySelectorAll(".tag-filter");;
     let i=allFilters.findIndex(filter=>{});
     allFilters.forEach(tag=>{
-        allFilters[i].style.backgroundcolor="#aeafe7" ;
+        allFilters[i].style.backgroundColor="#aeafe7" ;
     })
 
     document.getElementById("clear-btn").style.display="none";
