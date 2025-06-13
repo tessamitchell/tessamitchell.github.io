@@ -468,5 +468,6 @@ p {
   border:none;
   border-color:#333475;
   border:2px;
-
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
