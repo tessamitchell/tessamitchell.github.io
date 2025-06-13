@@ -224,9 +224,8 @@ function removefilters(){
         
     }
     let allFilters=document.getElementById("filter-tags").querySelectorAll(".tag-filter");;
-    let i=allFilters.findIndex(filter=>{});
-    allFilters.forEach(tag=>{
-        allFilters[i].style.backgroundColor="#aeafe7" ;
+    allFilters.forEach(filter=>{
+        filter.style.backgroundColor="#aeafe7" ;
     })
 
     document.getElementById("clear-btn").style.display="none";
