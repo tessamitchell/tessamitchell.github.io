@@ -203,7 +203,7 @@ p {
     display:flex;
     float: center;
     width:50%;
-    height 100%;
+    height: 100%;
 }
 
 
@@ -216,7 +216,7 @@ p {
 
 .mainbio{
     margin-left: 5%;
-    
+    flex:none;
 }
 
 .mainbio p{
