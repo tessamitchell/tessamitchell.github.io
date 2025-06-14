@@ -5,6 +5,7 @@
         "github":"https://github.com/tessamitchell/Twodle", 
         "brief":"Final project for my C#/.NET class. A partner project where we had to develop a desktop application of our choice. There were nine requirements that we had to pick 8 of to employ, ranging from arrays to threading.",
         "image":"https://tessamitchell.github.io/images/twodle1.png",
+        "video":null,
         "description":"Me and my partner built a Twodle game, which is essentially two games of Wordle being played at the same time where each guess applies to both games.  The work was split pretty evenly, with the two of us collaborating on how to do it, and switching off tasks.",
         "date":"2025-05-11",
         "tags":["Game Dev", "WPF","C#","XAML",".NET","Group Project"]
@@ -15,6 +16,7 @@
         "github":"https://github.com/AndrewLHellman/TVShowTracker", 
         "brief":"Developed for TigerHacks 2023, Mizzou's annual hackathon.  The theme for the year was 'media' and it was up to us what we made beyond that.",
         "image":"https://tessamitchell.github.io/images/websitemockup.jpg",
+        "video":null,
         "description":"My group made a website that recommends tv shows based on 'list-icles' online.  I worked with the TMDB API to get the information that we were going to use in our website.  It was my first time working with APIs and I spent a lot of time trying to fix issues that came up with the first API we were trying to use, before eventually switching to TMDB.",
         "date":"2023-11-05",
         "tags":["Web Dev", "Python","API","Group Project"]
@@ -25,6 +27,7 @@
         "github":null, 
         "brief":"Final project for my Databases class.  We had to create our own database and schema and create three functions to interact with the database.",
         "image":"https://tessamitchell.github.io/images/websitemockup.jpg",
+        "video":null,
         "description":"I made a basic book tracking program, inspired by Goodreads, but ideally with more customizable reading challenges.  This was my first time using SQL and incorporating it with another program, so I tried to keep it relatively simple for the purpose of this assignment.",
         "date":"2025-05-07",
         "tags":["Databases", "Python","Console App","SQL"]
@@ -34,6 +37,7 @@
         "github":"https://github.com/tessamitchell/tessamitchell.github.io", 
         "brief":null,
         "image":"https://tessamitchell.github.io/images/homepagecurrent.png",
+        "video":null,
         "description":"This project is the website you're currently looking at.  It is my first time working with html/css since I was in 7th grade and learned basic HTML in my computers class, which also means I retaught myself all of that and much more in order to build this website.",
         "date":"2025-06-20",
         "tags":["Web Dev", "HTML/CSS","JavaScript","Front-End"]
