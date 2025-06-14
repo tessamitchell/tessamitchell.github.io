@@ -303,6 +303,26 @@ p {
 
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------- */
+.codecontainermain {
+  margin:2%;
+  margin-top: 7%;
+  top:12vh;
+  min-height:90vh;
+  height:fit-content;
+  width:96vw;
+  min-width:fit-content;
+  background-color: #eba66b;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2%;
+  overflow: hidden;
+  display:table;
+  
+}
+
+
+
+
 
 .code-card{
   padding:10px;
@@ -358,6 +378,7 @@ p {
   transition-duration: .2s;
   box-shadow: none;
   translate:1px 1px;
+  font-weight: bold;
 }
 
 .code-info{
