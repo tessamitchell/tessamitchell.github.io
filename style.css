@@ -215,7 +215,8 @@ p {
     margin: left 5% right 5%;
     flex:none;
     text-align: center;
-    vertical-align: middle;
+    vertical-align:middle;
+    align-items: center;
 }
 
 .mainbio p{
