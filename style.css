@@ -199,22 +199,14 @@ p {
 .containermain div{
     padding:2%;
     margin:2%;
-    flex:50%;
+    /* flex:50%; */
+    display:flex;
     float: center;
-}
-
-
-
-
-.containermain th{
     width:50%;
-    height:100%;
-    border:2px;
-    border-color: black;
+    height 100%;
 }
-.containermain tr{
-    height:100%;
-}
+
+
 .main-imgcolumn img{
     
   width:100%;
