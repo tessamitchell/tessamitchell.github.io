@@ -192,6 +192,7 @@ p {
 
     padding: 2%;
     overflow: hidden;   
+    
 }
 
 .main-imgcolumn{
@@ -217,6 +218,7 @@ p {
     text-align: center;
     vertical-align:middle;
     align-items: center;
+    display:table;
 }
 
 .mainbio p{
