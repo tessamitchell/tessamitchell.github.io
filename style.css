@@ -189,23 +189,20 @@ p {
     min-width:fit-content;
     background-color: #eba66b;
     display: flex;
-    flex-wrap: wrap;
+
     padding: 2%;
-    overflow: hidden;
-    display:table;
-    
+    overflow: hidden;   
 }
 
-.containermain div{
-    padding:2%;
-    margin:2%;
-    /* flex:50%; */
-    display:flex;
-    float: center;
-    width:50%;
-    height: 100%;
-}
+.main-imgcolumn{
+  padding:2%;
+  margin:2%;
+  /* flex:50%; */
 
+  float: center;
+  width:50%;
+  height: 100%;
+}
 
 .main-imgcolumn img{
     
@@ -215,8 +212,10 @@ p {
 
 
 .mainbio{
+    width:50%;
     margin-left: 5%;
     flex:none;
+    text-align: center;
 }
 
 .mainbio p{
