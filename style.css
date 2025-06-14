@@ -349,7 +349,7 @@ p {
   height:auto;
   float:left;
   left:0%;
-  box-shadow: 5px 10px 10px 5px rgba(0,0,0,0.2);
+  box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
 }
 .code-tags{
   padding-top:1em;
@@ -401,6 +401,7 @@ p {
   margin-bottom:0px;
   padding-bottom: 0px;
   width:auto;
+  box-shadow: none;
 }
 .gh a{
   text-decoration: none;
