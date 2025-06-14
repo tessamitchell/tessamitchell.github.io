@@ -213,7 +213,7 @@ function filterbytag(tag){
     allFilters.forEach(filter=>{
         filter.style.backgroundColor = (filter.textContent===tag) ? "#aeafe7" :"#626280";
     })
-    document.getElementById("clear-btn").style.display="";
+    document.getElementById("clear-btn").disabled=false;
 
 }
 
@@ -228,5 +228,5 @@ function removefilters(){
         filter.style.backgroundColor="#aeafe7" ;
     })
 
-    document.getElementById("clear-btn").style.display="none";
+    document.getElementById("clear-btn").disabled=true;
 }
