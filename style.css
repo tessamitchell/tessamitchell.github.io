@@ -216,12 +216,13 @@ p {
 
 .mainbio{
     width:50%;
-    margin: left 5% right 5%;
-    flex:none;
-    text-align: center;
-    vertical-align:middle;
+    margin: 0 5%;
+    display: flex;
+
+    justify-content: center;
     align-items: center;
-    display:table;
+    text-align:center;
+    flex-direction:column;
 }
 
 .mainbio h1, p{
