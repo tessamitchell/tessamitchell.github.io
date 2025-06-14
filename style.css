@@ -196,30 +196,30 @@ p {
     
 }
 
-.countermain div{
+.containermain div{
     padding:2%;
     margin:2%;
     flex:50%;
     float: center;
 }
 
-.main-imgcolumn img{
-    
-    width:100%;
-    vertical-align:middle;
-}
 
 
-.countermain th{
+
+.containermain th{
     width:50%;
     height:100%;
     border:2px;
     border-color: black;
 }
-.countermain tr{
+.containermain tr{
     height:100%;
 }
-
+.main-imgcolumn img{
+    
+  width:100%;
+  vertical-align:middle;
+}
 
 
 .mainbio{
