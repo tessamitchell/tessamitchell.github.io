@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scrollbar-color: rgb(119, 84, 123) rgb(0,0,0,0) ;
   }
   
 html, body {
@@ -19,7 +20,7 @@ html, body {
     margin: 0;
     padding: 0;
     height:100%;
-    scrollbar-color: rgb(119, 84, 123) rgb(0,0,0,0) ;
+    
 }
 
 body {
