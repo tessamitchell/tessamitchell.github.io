@@ -196,12 +196,12 @@ p {
     
 }
 
-/* .containermain div{
+.containermain div{
     padding:2%;
     margin:2%;
     flex:50%;
     float: center;
-} */
+}
 
 
 
@@ -226,17 +226,11 @@ p {
     margin-left: 5%;
     
 }
-.mainbio table{
-    border-bottom: 10%;
-}
-.mainbio tr{
-    margin: 5%;
-    padding:2%;
-    text-align: center;
-    border-bottom:50px;
-    border-top: 50px;
-}
 
+.mainbio p{
+  padding: top 20px bottom 20px;
+
+}
 
 /* ------------------------------------------------------------------------------------------------------------------------- */
 
