@@ -175,13 +175,13 @@ function sortby(){
     let sender=document.getElementById("sort");
     let container=document.getElementById("code-cards-container");
     if(sender.value=="name"){
-        allCards.sort((a,b) => {a.querySelector("#titletext").textContent - b.querySelector("#titletext").textContent});
+        allCards.sort((a,b) => a.querySelector("#titletext").textContent.localeCompare(b.querySelector("#titletext").textContent));
     }
     else if(sender.value=="date up"){
-        allCards.sort((a,b) => {new Date(a.querySelector("#date").textContent) - new Date(b.querySelector("#date").textContent)});
+        allCards.sort((a,b) => new Date(a.querySelector("#date").textContent) - new Date(b.querySelector("#date").textContent));
     }
     else{
-        allCards.sort((a,b) => {new Date(b.querySelector("#date").textContent) - new Date(a.querySelector("#date").textContent)});
+        allCards.sort((a,b) => new Date(b.querySelector("#date").textContent) - new Date(a.querySelector("#date").textContent));
         
     }
     // clear cards from screen
