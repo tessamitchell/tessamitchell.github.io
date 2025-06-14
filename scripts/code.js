@@ -212,6 +212,7 @@ function filterbytag(tag){
     let allFilters=document.getElementById("filter-tags").querySelectorAll(".tag-filter");;
     allFilters.forEach(filter=>{
         filter.style.backgroundColor = (filter.textContent===tag) ? "#aeafe7" :"#626280";
+        filter.style.fontWeight = (filter.textContent===tag) ? "bold" :"normal";
     })
     document.getElementById("clear-btn").disabled=false;
 
@@ -226,6 +227,7 @@ function removefilters(){
     let allFilters=document.getElementById("filter-tags").querySelectorAll(".tag-filter");;
     allFilters.forEach(filter=>{
         filter.style.backgroundColor="#aeafe7" ;
+        filter.style.fontWeight="normal" ;
     })
 
     document.getElementById("clear-btn").disabled=true;
