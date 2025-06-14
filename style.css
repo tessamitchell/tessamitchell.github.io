@@ -517,7 +517,7 @@ p {
 .contactinfo{
   width:50%;
   float:center;
-  
+  flex:none;
 }
 
 .contactimg{
