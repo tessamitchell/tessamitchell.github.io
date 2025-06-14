@@ -494,4 +494,5 @@ p {
   transition-duration: .2s;
   box-shadow: none;
   translate:0.5px 0.5px;
+  font-weight: bold;
 }
