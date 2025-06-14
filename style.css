@@ -221,9 +221,10 @@ p {
     display:table;
 }
 
-.mainbio p{
+.mainbio h1, p{
   padding: top 20px bottom 20px;
   font-weight: bold;
+  vertical-align: middle;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------- */
