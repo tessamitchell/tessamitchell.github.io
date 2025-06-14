@@ -24,6 +24,7 @@ html, body {
 body {
   background-color: rgb(205, 226, 229);
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  scrollbar-color: rgb(119, 84, 123) rgb(0,0,0,0) ;
 }
 h1 {
   color: rgb(0, 0, 33);
