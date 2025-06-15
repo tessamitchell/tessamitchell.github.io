@@ -115,9 +115,11 @@ function createCard(project){
     col2.append(brief);
     }
 
-    const description=document.createElement("p");
-    description.textContent="Description: " + project.description;
-    col2.append(description);
+    if(project.description != null || project.description != ""){
+        const description=document.createElement("p");
+        description.textContent="Description: " + project.description;
+        col2.append(description);
+    }
 
     const tags=document.createElement("div");
     tags.className="code-tags";
