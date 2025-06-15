@@ -265,7 +265,7 @@ p {
     width:100%;
     margin-bottom:0;
   
-    height:5%;
+    height:fit-content;
 }
 .footer p{
     font-family: 'Courier New', Courier, monospace;
