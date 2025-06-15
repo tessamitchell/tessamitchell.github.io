@@ -55,6 +55,7 @@ function createCard(project){
     if(project.video !=null){
         const video= project.video.includes("youtu") ? document.createElement("iframe"):document.createElement("video");
         video.src=project.video;
+        video.allowFullscreen=true;
         col1.append(video);
     }else{
         const image=document.createElement("img");
