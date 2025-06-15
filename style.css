@@ -148,6 +148,7 @@ p {
   top:10vh-2px;
   
   transform: translateX(-3%);
+  height:0;
   
 }
 
@@ -177,6 +178,7 @@ p {
   display: block;
   transition-duration: .2s;
   transform:translateY(0);
+  height:fit-content;
 }
 
 
