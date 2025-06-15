@@ -568,3 +568,9 @@ p {
 .aboutcontainermain p{
   text-indent: 3em;
 }
+
+.about-image-1{
+  height:150px;
+  float:right;
+  margin:10px;
+}
