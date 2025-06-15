@@ -343,7 +343,7 @@ p {
   height:auto;
   float:left;
   left:0%;
-  box-shadow: 5px 0px 0px 5px rgba(0,0,0,0.2);
+  /* box-shadow: 5px 0px 0px 5px rgba(0,0,0,0.2); */
   border:10px;
   border-color:#333475;
 }
