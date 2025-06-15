@@ -177,9 +177,22 @@ p {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-  transition-duration: .2s;
+  transition-duration: 1s;
   transform:translateY(0);
   height:fit-content;
+  animation:drop ease-in-out;
+}
+
+@keyframes drop{
+  0% {
+    transform: scaleY(0)
+}
+  80% {
+    transform: scaleY(1.1)
+}
+  100% {
+    transform: scaleY(1)
+}
 }
 
 

@@ -13,7 +13,7 @@
         "brief":"Group project for my Film Production I class.  Everyone pitched a short film, which we voted for which ones we wanted to work on, and were assigned into groups from there.",
         "description":"My film wasn't chosen to be produced which meant I was not the director.  Instead I filled a variety of roles like Producer, Assistant Director, Camerawoman, etc.  The film wasn't my personal vision, and I would have approached the storytelling differently, however my job was to fulfill that of the director.  I also fell sick during the bulk of the filming days, and was only there for two of the final scenes.  As part of the group, however, we all got to make our own final edit, which is where I was able to really shine.  I created all the graphics myself in Photoshop and then used After Effects to incorporate them into the final edit.",
         "date":"2025-04-07",
-        "tags":["Adobe Premiere Pro", "Short Film", "Canon 5D Mark IV", "Canon EOS Rebel T5i", "Adobe After Effects", "Adobe Audition", "Adobe Photoshop"]
+        "tags":["Adobe Premiere Pro", "Short Film", "Canon 5D Mark IV", "Canon EOS Rebel T5i", "Adobe After Effects", "Adobe Audition", "Adobe Photoshop", "Comedy"]
     },
     {
         "name":"Gimme Truth! Documentary",
@@ -29,7 +29,7 @@
         "brief":"Project for my Intro to Digital Storytelling class.  We had to evoke a specific mood through our imagery and soundscape to match the poem we used as voiceover.  We also had to include either experimental footage or symbolic/metaphoric imagery.",
         "description":"",
         "date":"2024-04-29",
-        "tags":["Adobe Premiere Pro","Canon EOS Rebel T5i","Short Film"]
+        "tags":["Adobe Premiere Pro","Canon EOS Rebel T5i","Short Film", "Video Art"]
     },
     {
         "name":"Light and Composition Video",
@@ -53,13 +53,13 @@
         "brief":"Project for my Intro to Digital Storytelling class.  We were told to tell a story using only still images and a complete soundscape.  The purpose of this was to practice composition and sound editing.",
         "description":"",
         "date":"2024-02-19",
-        "tags":["Adobe Premiere Pro","Canon EOS Rebel T5i","Short Film"]
+        "tags":["Adobe Premiere Pro","Canon EOS Rebel T5i","Short Film", "Comedy", "Narrative"]
     },
     {
         "name":"Animation Practice",
         "youtube":"https://www.youtube.com/embed/lgJv4035vg4?si=QU3gt-GP2mw4o42l",
         "brief":"Project for my IT Media Design class.  We had to make a 15 second animated ad for the fictional company 'RetroWeird Software'.  All imagery was either provided my professor or created by me.  The logo was created by me for a previous assignment.",
-        "description":"",
+        "description":"This was my first time using After Effects, but not my first time key-framing.",
         "date":"2024-11-14",
         "tags":["Adobe After Effects", "Adobe Photoshop"]
     },
