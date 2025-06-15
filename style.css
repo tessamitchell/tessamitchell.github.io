@@ -113,7 +113,8 @@ p {
 .dropdown {
   float: right;
   overflow: hidden;
-  margin-top: 7px;
+  margin-bottom:0px;
+  height:100%;
   margin-right:10px;
   font-family:'Courier New', Courier, monospace;
 }
