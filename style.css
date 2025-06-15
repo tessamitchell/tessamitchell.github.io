@@ -113,7 +113,7 @@ p {
 .dropdown {
   float: right;
   overflow: hidden;
-  margin-bottom:0px;
+  padding-top: 7px;
   height:100%;
   margin-right:10px;
   font-family:'Courier New', Courier, monospace;
@@ -147,7 +147,7 @@ p {
   z-index: 1;
   font-size:10px;
   top:10vh;
-  
+  transform:translateY(0);
   transform: translateX(-3%);
   height:0;
   
@@ -179,22 +179,14 @@ p {
 .dropdown:hover .dropdown-content {
   display: block;
   transition-duration: 1s;
-  transform:translateY(0);
+  transform:translateY(1);
   height:fit-content;
-  animation:drop ease-in-out;
+  animation:ease-in-out;
+
+
 }
 
-@keyframes drop{
-  0% {
-    transform: scaleY(0)
-}
-  80% {
-    transform: scaleY(1.1)
-}
-  100% {
-    transform: scaleY(1)
-}
-}
+
 
 
 /* ------------------------------------------------------------------------------------------------------------------------- */
