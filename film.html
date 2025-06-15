@@ -44,8 +44,29 @@
 <body>
     
 
-    <div class="containermain">
+    <div class="codecontainermain" id="mainbody">
+        <div class="filters">
+            
+            <button  id="clear-btn"  class="clear-btn"  onclick="removefilters()"  disabled>Clear</button>
+            
+            <div class="filter-tags" id="filter-tags">
 
+            </div>
+            <label for="sort">Sort by: </label>
+            <select name="sort" id="sort" onchange="sortby()">
+                <option value="date down">Most Recent</option>
+                <option value="date up">Least Recent</option>
+                <option value="name">Alphabetical</option>
+            </select>
+            
+        </div>
+
+        <div class="code-cards-container" id="code-cards-container">
+            <script src="scripts/film.js" defer></script>
+        </div>
+
+        
+        
 
     </div>
 
