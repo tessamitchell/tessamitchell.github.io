@@ -52,9 +52,15 @@ function createCard(project){
 
     row1.append(col1);
 
-    const image=document.createElement("img");
-    image.setAttribute("src",project.image);
-    col1.append(image);
+    if(project.video !=null){
+        const video= project.video.includes("youtu") ? document.createElement("iframe"):document.createElement("video");
+        video.src=project.video;
+    }else{
+        const image=document.createElement("img");
+        image.setAttribute("src",project.image);
+        col1.append(image);
+    }
+    
 
     const col2=document.createElement("th");
     col2.className="code-info";

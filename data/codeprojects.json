@@ -26,7 +26,7 @@
         "name":"Database Booktracking",
         "github":null, 
         "brief":"Final project for my Databases class.  We had to create our own database and schema and create three functions to interact with the database.",
-        "image":"https://tessamitchell.github.io/images/websitemockup.jpg",
+        "image":"https://tessamitchell.github.io/images/booktrackingdatabase.png",
         "video":null,
         "description":"I made a basic book tracking program, inspired by Goodreads, but ideally with more customizable reading challenges.  This was my first time using SQL and incorporating it with another program, so I tried to keep it relatively simple for the purpose of this assignment.",
         "date":"2025-05-07",
