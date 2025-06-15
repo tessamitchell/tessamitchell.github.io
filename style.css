@@ -534,7 +534,7 @@ p {
 
   justify-content: left;
   align-items: center;
-
+  text-align: left;
   flex-direction:column;
 }
 
