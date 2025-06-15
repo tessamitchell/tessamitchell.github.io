@@ -34,7 +34,7 @@ h1 {
 p {
   color: rgb(34, 35, 75);
   line-height: 25px;
-  text-indent: 3em;
+
 }
 
 /* Add a black background color to the top navigation */
@@ -344,6 +344,8 @@ p {
   float:left;
   left:0%;
   box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
+  border:10px;
+  border-color:#333475;
 }
 .code-tags{
   padding-top:1em;
@@ -518,8 +520,12 @@ p {
 
 .contactinfo{
   width:50%;
-  float:center;
-  flex:none;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  flex-direction:column;
 }
 
 .contactimg{
@@ -547,4 +553,8 @@ p {
   padding: 2%;
   overflow: hidden;   
   
+}
+
+.aboutcontainermain p{
+  text-indent: 3em;
 }
