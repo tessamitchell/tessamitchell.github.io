@@ -381,7 +381,7 @@ p {
 }
 .code-card iframe, video{
   width:90%;
-
+  aspect-ratio: 16/9;
 
   margin:5%;
   float:center;
