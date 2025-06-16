@@ -133,7 +133,7 @@ function createCard(project){
 
     const tags=document.createElement("div");
     tags.className="code-tags";
-    col2.append(tags);
+    
 
     for(let i=0;i<project.tags.length;i++){
         const tag=document.createElement("button");
@@ -151,7 +151,7 @@ function createCard(project){
         }
 
     }
-
+    col2.append(tags);
 
 
 
