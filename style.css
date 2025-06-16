@@ -279,9 +279,6 @@ p {
     margin-bottom:0;
   
     height:5vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: baseline;
 }
 .footer p{
     font-family: 'Courier New', Courier, monospace;
@@ -293,6 +290,7 @@ p {
 .footer-left{
   margin-top:6px;
   margin-bottom:5px;
+  /* align-items: start; */
 }
 
 .footer-left a{
