@@ -41,16 +41,42 @@ function createCard(project){
 
     
 
-    const table=document.createElement("table");
+    // const table=document.createElement("table");
+    // codeCard.append(table);
+
+    // const row1=document.createElement("tr");
+    // table.append(row1);
+
+    // const col1=document.createElement("th")
+    // col1.className="code-image";
+
+    // row1.append(col1);
+
+    // const col2=document.createElement("th");
+    // col2.className="code-info";
+    // row1.append(col2);
+
+
+    
+
+    const container=document.createElement("div");
+    container.className="codecontainer";
     codeCard.append(table);
 
-    const row1=document.createElement("tr");
-    table.append(row1);
+    // const row1=document.createElement("tr");
+    // table.append(row1);
 
-    const col1=document.createElement("th")
+    const col1=document.createElement("div")
     col1.className="code-image";
 
-    row1.append(col1);
+    container.append(col1);
+
+
+    const col2=document.createElement("div");
+    col2.className="code-info";
+    container.append(col2);
+
+
 
     if(project.video !=null){
         const video= project.video.includes("youtu") ? document.createElement("iframe"):document.createElement("video");
@@ -63,35 +89,6 @@ function createCard(project){
         col1.append(image);
     }
     
-
-    const col2=document.createElement("th");
-    col2.className="code-info";
-    row1.append(col2);
-
-
-    // const table=document.createElement("div");
-    // table.className="codecontainer";
-    // codeCard.append(table);
-
-    // // const row1=document.createElement("tr");
-    // // table.append(row1);
-
-    // const col1=document.createElement("div")
-    // col1.className="code-image";
-
-    // table.append(col1);
-
-    // const image=document.createElement("img");
-    // image.setAttribute("src",project.image);
-    // col1.append(image);
-
-    // const col2=document.createElement("div");
-    // col2.className="code-info";
-    // table.append(col2);
-
-
-
-
 
     const title=document.createElement("div");
     title.className="title";

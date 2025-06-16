@@ -338,7 +338,12 @@ p {
   text-indent: 0em;
 }
 
-
+.code-image .code-info{
+  min-width:fit-content;
+  text-align: left;
+  border-left-width: 10px;
+  padding-left:10px;
+}
 
 .code-card th{
   min-width:fit-content;
@@ -543,7 +548,7 @@ p {
   width:50%;
   display: flex;
 
-  justify-content: left;
+  justify-content:center;
   align-items: center;
   text-align: left;
   flex-direction:column;
