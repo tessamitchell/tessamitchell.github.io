@@ -61,7 +61,7 @@ function createCard(project){
 
     const container=document.createElement("div");
     container.className="codecontainer";
-    codeCard.append(table);
+    codeCard.append(container);
 
     // const row1=document.createElement("tr");
     // table.append(row1);
