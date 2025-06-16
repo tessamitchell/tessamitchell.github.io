@@ -367,9 +367,9 @@ p {
 } */
 
 .code-image img{
-  width:30vw;
+  width:100%;
   height:auto;
-  margin:20px;
+  margin:0px 20px;
 
   /* box-shadow: 5px 0px 0px 5px rgba(0,0,0,0.2); */
   /* border:5px solid #333475; */
