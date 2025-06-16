@@ -381,11 +381,11 @@ p {
   /* border-color:#333475; */
 }
 .code-card iframe, video{
-  width:30vw;
-  height:17vw;
+  width:90%;
 
 
-  margin:20px;
+  margin:5%;
+  float:center;
   /* border:5px solid #333475; */
   border:none;
 
