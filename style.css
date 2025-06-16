@@ -329,7 +329,7 @@ p {
   /* display:table; */
   display: flex;
   flex-direction:column;
-  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+  
 }
 
 
@@ -343,6 +343,7 @@ p {
   margin-bottom:20px; 
   display:flex;
   flex-direction: row;
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
 }
 .code-card p{
   text-indent: 0em;
