@@ -332,7 +332,7 @@ p {
 .code-card{
   /* padding:10px; */
   background-color: #eeb482;
-  margin:10px;
+  margin:2%;
   margin-bottom:20px; 
   display:flex;
   flex-direction: row;
@@ -350,6 +350,7 @@ p {
 }
 .code-image{
   background-color: #333475;
+  width:40%;
 }
 
 .code-card th{
@@ -362,7 +363,7 @@ p {
 .code-card img{
   width:30vw;
   height:auto;
-
+  margin:20px;
   left:0%;
   /* box-shadow: 5px 0px 0px 5px rgba(0,0,0,0.2); */
   /* border:5px solid #333475; */
@@ -412,7 +413,7 @@ p {
 }
 
 .code-info{
-  width:100%;
+  width:60%;
 }
 .code-info p{
   padding-top:0.5em;
