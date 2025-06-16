@@ -372,9 +372,10 @@ p {
   width:30vw;
   height:17vw;
 
-  float:left;
+
   left:0%;
   /* border:5px solid #333475; */
+  border:none;
 
 }
 .code-tags{
@@ -397,7 +398,7 @@ p {
   border:none;
   border-color:#333475;
   border:2px;
-  float:center;
+
   box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.1);
   margin-bottom:5px;
   margin-top:5px;
