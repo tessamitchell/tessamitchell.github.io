@@ -59,9 +59,9 @@ function createCard(project){
 
     
 
-    const container=document.createElement("div");
-    container.className="codecontainer";
-    codeCard.append(container);
+    // const container=document.createElement("div");
+    // container.className="codecontainer";
+    // codeCard.append(container);
 
     // const row1=document.createElement("tr");
     // table.append(row1);
@@ -69,12 +69,12 @@ function createCard(project){
     const col1=document.createElement("div")
     col1.className="code-image";
 
-    container.append(col1);
+    codeCard.append(col1);
 
 
     const col2=document.createElement("div");
     col2.className="code-info";
-    container.append(col2);
+    codeCard.append(col2);
 
 
 
