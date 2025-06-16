@@ -419,6 +419,8 @@ p {
   padding-left:1em;
   margin:20px 0px;
   text-align: left;
+  flex-direction: column;
+  vertical-align: center;
 }
 .code-info p{
   padding-top:0.5em;
