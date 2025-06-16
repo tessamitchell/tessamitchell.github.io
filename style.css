@@ -353,7 +353,7 @@ p {
   float:left;
   left:0%;
   /* box-shadow: 5px 0px 0px 5px rgba(0,0,0,0.2); */
-  border:10px solid #333475;
+  border:5px solid #333475;
   /* border-color:#333475; */
 }
 .code-card iframe, video{
@@ -362,7 +362,7 @@ p {
 
   float:left;
   left:0%;
-  border:10px solid #333475;
+  border:5px solid #333475;
 
 }
 .code-tags{
@@ -418,6 +418,7 @@ p {
   padding-bottom: 0px;
   width:auto;
   box-shadow: none;
+  border:none;
 }
 .gh a{
   text-decoration: none;
