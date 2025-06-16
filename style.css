@@ -343,10 +343,10 @@ p {
 
 .code-image .code-info{
   min-width:fit-content;
-  text-align: left;
-  border-left-width: 10px;
+  /* text-align: left; */
+  
   padding:20px;
-  padding-left:10px;
+
 }
 .code-image{
   background-color: #333475;
@@ -355,12 +355,12 @@ p {
   justify-content: center;
 }
 
-.code-card th{
+/* .code-card th{
   min-width:fit-content;
   text-align: left;
   border-left-width: 10px;
   padding-left:10px;
-}
+} */
 
 .code-image img{
   width:30vw;
@@ -418,6 +418,7 @@ p {
   width:60%;
   padding-left:1em;
   margin:20px 0px;
+  text-align: left;
 }
 .code-info p{
   padding-top:0.5em;
@@ -447,10 +448,13 @@ p {
   flex-wrap: wrap;
   align-items: baseline;
 }
+.title h2{
+  margin-right:.5em;
+}
 .title small{
   font-style: italic;
   vertical-align: bottom;
-  margin-left:.5em;
+  
   margin-bottom: 0px;
   padding: top 100% bottom 0%;
 
