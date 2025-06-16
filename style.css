@@ -357,6 +357,7 @@ p {
   width:35%;
   align-items:center;
   justify-content: center;
+  align-content: center;
 }
 
 /* .code-card th{
@@ -370,7 +371,8 @@ p {
   width:100%;
   height:auto;
   margin:0px 20px;
-
+  float:center;
+  
   /* box-shadow: 5px 0px 0px 5px rgba(0,0,0,0.2); */
   /* border:5px solid #333475; */
   /* border-color:#333475; */
@@ -425,6 +427,7 @@ p {
   text-align: left;
   flex-direction: column;
   vertical-align: center;
+  justify-content: space-between;
 }
 .code-info p{
   padding-top:0.5em;
