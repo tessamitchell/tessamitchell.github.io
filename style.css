@@ -241,6 +241,10 @@ p {
   vertical-align: middle;
 }
 
+.mainbio h1{
+  padding-bottom:5%;
+}
+
 /* ------------------------------------------------------------------------------------------------------------------------- */
 
 
@@ -433,7 +437,7 @@ p {
 }
 
 .gh img{
-  margin-right:.4em;
+  margin-left:.4em;
   height:.9em;
   margin-bottom:0px;
   padding-bottom: 0px;
@@ -450,13 +454,11 @@ p {
   flex-wrap: wrap;
   align-items: baseline;
 }
-.title h2{
-  margin-right:.5em;
-}
+
 .title small{
   font-style: italic;
   vertical-align: bottom;
-  
+  margin-left:.5em;
   margin-bottom: 0px;
   padding: top 100% bottom 0%;
 
