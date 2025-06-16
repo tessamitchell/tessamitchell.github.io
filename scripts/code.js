@@ -127,7 +127,7 @@ function createCard(project){
     col2.append(brief);
     }
 
-    if(project.description != null || project.description != ""){
+    if(project.description != null && project.description != ""){
         const description=document.createElement("p");
         description.textContent="Description: " + project.description;
         col2.append(description);

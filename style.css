@@ -353,8 +353,8 @@ p {
   float:left;
   left:0%;
   /* box-shadow: 5px 0px 0px 5px rgba(0,0,0,0.2); */
-  border:10px;
-  border-color:#333475;
+  border:10px solid #333475;
+  /* border-color:#333475; */
 }
 .code-card iframe, video{
   width:30vw;
@@ -362,7 +362,7 @@ p {
 
   float:left;
   left:0%;
-  border-color: #333475;
+  border:10px solid #333475;
 
 }
 .code-tags{
@@ -395,6 +395,7 @@ p {
   transition-duration: .2s;
   box-shadow: none;
   translate:1px 1px;
+  font-weight: bold;
 }
 
 .code-info{
