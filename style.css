@@ -328,7 +328,7 @@ p {
 
 
 .code-card{
-  padding:10px;
+  /* padding:10px; */
   background-color: #eeb482;
   margin:10px;
   margin-bottom:20px; 
@@ -342,7 +342,11 @@ p {
   min-width:fit-content;
   text-align: left;
   border-left-width: 10px;
+  padding:10px;
   padding-left:10px;
+}
+.code-image{
+  background-color: #333475;
 }
 
 .code-card th{
