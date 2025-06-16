@@ -368,9 +368,9 @@ p {
 } */
 
 .code-image img{
-  width:100%;
+  width:90%;
   height:auto;
-  margin:0px 20px;
+  margin:5%;
   float:center;
   
   /* box-shadow: 5px 0px 0px 5px rgba(0,0,0,0.2); */
