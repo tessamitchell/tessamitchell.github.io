@@ -323,14 +323,16 @@ p {
   /* display: flex; */
   
   /* padding: 2%; */
-  overflow: scroll;
+  overflow: hidden;
   /* display:table; */
   display: flex;
   flex-direction:column;
   
 }
 
-
+.code-cards-container{
+  overflow: scroll;
+}
 
 
 
