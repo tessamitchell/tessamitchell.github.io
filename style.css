@@ -323,7 +323,7 @@ p {
   /* display: flex; */
   
   /* padding: 2%; */
-  overflow: hidden;
+  overflow: scroll;
   /* display:table; */
   display: flex;
   flex-direction:column;
@@ -425,6 +425,8 @@ p {
 .code-info{
   width:60%;
   padding-left:1em;
+  padding-top:20px;
+  padding-bottom:20px;
   margin:20px 0px;
   text-align: left;
   flex-direction: column;

@@ -41,16 +41,26 @@ function createCard(project){
 
     
 
-    const table=document.createElement("table");
-    codeCard.append(table);
+    // const table=document.createElement("table");
+    // codeCard.append(table);
 
-    const row1=document.createElement("tr");
-    table.append(row1);
+    // const row1=document.createElement("tr");
+    // table.append(row1);
 
-    const col1=document.createElement("th")
+    // const col1=document.createElement("th")
+    // col1.className="code-image";
+
+    const col1=document.createElement("div")
     col1.className="code-image";
 
-    row1.append(col1);
+    codeCard.append(col1);
+
+
+    const col2=document.createElement("div");
+    col2.className="code-info";
+    codeCard.append(col2);
+
+    // row1.append(col1);
 
     if(project.youtube !=null){
         const video= document.createElement("iframe");
@@ -64,9 +74,9 @@ function createCard(project){
     }
     
 
-    const col2=document.createElement("th");
-    col2.className="code-info";
-    row1.append(col2);
+    // const col2=document.createElement("th");
+    // col2.className="code-info";
+    // row1.append(col2);
 
 
     // const table=document.createElement("div");
