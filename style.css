@@ -282,7 +282,17 @@ p {
     align-items:center;
     height:8vh;
 }
-.footer p{
+
+.footer-right{
+  float:right;
+}
+.footer-right img{
+  height:3vh;
+  width:auto;
+}
+
+.footer-right p{
+    font-weight: normal;
     font-family: 'Courier New', Courier, monospace;
     float:right;
 
