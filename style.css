@@ -283,13 +283,13 @@ p {
 .footer p{
     font-family: 'Courier New', Courier, monospace;
     float:right;
-    padding:10px;
+
     color:lightgray;
-    margin-bottom:7px;
+
 }
 .footer-left{
-  margin-top:6px;
-  margin-bottom:5px;
+  /* margin-top:6px;
+  margin-bottom:5px; */
   /* align-items: start; */
 }
 
@@ -304,8 +304,6 @@ p {
     width:auto;
     display:inline;
     color:lightgray;
-
-
 }
 
 
