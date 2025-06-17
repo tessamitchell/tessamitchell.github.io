@@ -315,7 +315,7 @@ p {
   margin:2%;
   margin-top: 7%;
   top:12vh;
-  min-height:90vh;
+  height:90vh;
   /* height:fit-content; */
   width:96vw;
   min-width:fit-content;
