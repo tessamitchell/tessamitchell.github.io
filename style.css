@@ -316,7 +316,7 @@ p {
   margin-top: 7%;
   top:12vh;
   min-height:90vh;
-  height:fit-content;
+  /* height:fit-content; */
   width:96vw;
   min-width:fit-content;
   background-color: #eba66b;
@@ -332,6 +332,7 @@ p {
 
 .code-cards-container{
   overflow: scroll;
+  overflow-x: hidden;
 }
 
 
@@ -427,8 +428,7 @@ p {
 .code-info{
   width:60%;
   padding-left:1em;
-  padding-top:20px;
-  padding-bottom:20px;
+  
   margin:20px 0px;
   text-align: left;
   flex-direction: column;
