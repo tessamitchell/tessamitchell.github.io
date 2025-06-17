@@ -101,11 +101,11 @@ p {
     color: white;
   }
 .logo-image{
+  display:inline;
+}
+.logo-image img{
     height: 7vh;
-    
-  
-    display:inline;
-    overflow: hidden;
+    width:auto;
   
 }
 
@@ -197,8 +197,8 @@ p {
     margin:2%;
     margin-top: 7%;
     top:12vh;
-    
-    height:fit-content;
+    height: 96vh;
+    min-height:fit-content;
     width:96vw;
     min-width:fit-content;
     background-color: #eba66b;
@@ -278,17 +278,19 @@ p {
     overflow: hidden;
     width:100%;
     margin-bottom:0;
-
+    
     align-items:center;
-    height:8vh;
+    height:5vh;
 }
 
 .footer-right{
   float:right;
+  display:inline;
 }
 .footer-right img{
   height:3vh;
   width:auto;
+  padding:5px;
 }
 
 .footer-right p{
@@ -301,6 +303,7 @@ p {
 }
 .footer-left{
   margin-top:6px;
+  display: inline;
   /* margin-bottom:5px; */
   /* align-items: start; */
 }
