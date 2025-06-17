@@ -273,7 +273,7 @@ p {
 .footer{
 
     margin:0px;
-    padding:0;
+    padding:1vh 1vw;
     background-color: #333475;
     overflow: hidden;
     width:100%;
@@ -302,7 +302,7 @@ p {
 
 }
 .footer-left{
-  margin-top:6px;
+
   display: inline;
   /* margin-bottom:5px; */
   /* align-items: start; */
