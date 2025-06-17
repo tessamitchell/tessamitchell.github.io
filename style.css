@@ -37,6 +37,7 @@ p {
 
 }
 
+
 /* Add a black background color to the top navigation */
 .topnav {
     margin:0px;
@@ -277,14 +278,16 @@ p {
     overflow: hidden;
     width:100%;
     margin-bottom:0;
+    justify-content: baseline;
+    
     align-items:center;
-    height:7vh;
+    height:8vh;
 }
 .footer p{
     font-family: 'Courier New', Courier, monospace;
     float:right;
 
-    color:lightgray;
+    color:aliceblue;
 
 }
 .footer-left{
