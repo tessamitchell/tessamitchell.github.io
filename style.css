@@ -101,7 +101,7 @@ p {
     color: white;
   }
 .logo-image{
-    height: 46px;
+    height: 7vh;
     
   
     display:inline;
@@ -278,8 +278,7 @@ p {
     overflow: hidden;
     width:100%;
     margin-bottom:0;
-    justify-content: baseline;
-    
+
     align-items:center;
     height:8vh;
 }
