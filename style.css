@@ -496,7 +496,7 @@ p {
   height:10%;
   
   padding:10px;
-  /* padding-right:10px; */
+  padding-right:20px;
   background-color:#333475;
   color:aliceblue;
   display: flex;
@@ -560,7 +560,7 @@ p {
   height:50%;
   width:5%;
   padding:5px;
-  margin:5px 20px;
+  margin:5px 20px 5px 10px; 
   border:none;
   box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.05);
 }
