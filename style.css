@@ -240,7 +240,7 @@ p {
 }
 
 .mainbio h1, p{
-  padding: top 20px bottom 20px;
+  padding: top .8em bottom .8em;
   font-weight: bold;
   vertical-align: middle;
 }
