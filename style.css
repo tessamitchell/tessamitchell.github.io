@@ -106,7 +106,8 @@ p {
 }
 
 .logo-image img{
-    height: 1em;
+    height: 0.5em;
+    width: 0.5em;
     width:auto;
     vertical-align: center;
 }
