@@ -1,0 +1,26 @@
+[
+    {
+        "name":"RetroWeird Logo Designs",
+        "image-base":"https://tessamitchell.github.io/images/retroweird/",
+        "images":["logo1","logo2-favorite","logo3"],
+        "descriptions":[""]
+    },
+
+    {
+        "name":"RetroWeird Website Mockup",
+        "image-base":"",
+        "images":[""],
+        "descriptions":[""]
+    },
+
+    {
+        "name":"MU Quizbowl Logo Designs",
+        "image-base":"",
+        "images":[""],
+        "descriptions":[""]
+    }
+
+
+
+
+]
