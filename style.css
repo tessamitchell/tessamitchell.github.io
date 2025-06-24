@@ -667,6 +667,7 @@ p {
   padding:2%;
   background-color: #eeb482;
   width:100%;
+  overflow: hidden;
 }
 .design-row{
   height:20vh;
