@@ -26,7 +26,7 @@ function fetchJSONData() {
         })  
         .catch(error => console.error('Failed to fetch data:', error)); 
 }
-//fetchJSONData();
+fetchJSONData();
 
 function createCard(project){
     let codeCard=document.createElement("div");
