@@ -696,12 +696,12 @@ p {
 .design-display{
   width:90%;
   float:center;
-  margin:5%;
+
 
 }
 
 .design-display img{
-  width:70%;
-  height:auto;
+  width:100%;
+
   float:center;
 }
