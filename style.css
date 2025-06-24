@@ -666,6 +666,7 @@ p {
   height:fit-content;
   padding:2%;
   background-color: #eeb482;
+  width:100%;
 }
 .design-row{
   height:20vh;
