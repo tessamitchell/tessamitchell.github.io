@@ -667,8 +667,10 @@ p {
   padding:2%;
 }
 .design-row{
-  height:10%;
+  height:10vh;
   width:100%;
+  display: flex;
+  flex-direction: row;
 }
 
 .design-row img{
