@@ -640,7 +640,7 @@ p {
 }
 
 
-
+/* --------------------------------------------------------------------------------------------------------------------------- */
 
 .graphicdesign-container-main {
   margin:2%;
@@ -650,7 +650,7 @@ p {
   height:fit-content;
   width:96vw;
   min-width:fit-content;
-  background-color: #eba66b;
+  background-color: #eeb482;
   /* display: flex; */
   
   /* padding: 2%; */
@@ -667,14 +667,34 @@ p {
   padding:2%;
 }
 .design-row{
-  height:10vh;
+  height:20vh;
   width:100%;
   display: flex;
   flex-direction: row;
 }
 
-.design-row img{
+.design-img-option{
   height:100%;
   padding-right:2%;
   width:23%;
+
+}
+
+.design-img-option img{
+  height:100%;
+  width:auto;
+
+}
+
+
+.design-display{
+  width:80%;
+  float:center;
+
+
+}
+
+.design-display img{
+  width:80%;
+  height:auto;
 }
