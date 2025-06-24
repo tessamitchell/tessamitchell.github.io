@@ -638,3 +638,41 @@ p {
   float:right;
   margin:10px;
 }
+
+
+
+
+.graphicdesign-container-main {
+  margin:2%;
+  margin-top: 7%;
+  top:12vh;
+  min-height:95vh;
+  height:fit-content;
+  width:96vw;
+  min-width:fit-content;
+  background-color: #eba66b;
+  /* display: flex; */
+  
+  /* padding: 2%; */
+  overflow: hidden;
+  /* display:table; */
+  display: flex;
+  flex-direction:column;
+  
+}
+
+.design-container{
+  margin:2%;
+  height:fit-content;
+  padding:2%;
+}
+.design-row{
+  height:10%;
+  width:100%;
+}
+
+.design-row img{
+  height:100%;
+  padding-right:2%;
+  width:23%;
+}

@@ -44,10 +44,23 @@
 <body>
     
 
-    <div class="containermain">
-        <h1>Uh oh!</h1>
-        <h2>Sorry, this page is still in progress!</h2>
+    <div class="graphicdesign-container-main">
+        <h2>Heads up, this page is currently being worked on, so anything you find here might be a little messy!</h2>
 
+        <div class="design-container">
+            <h2>RetroWeird Logo</h2>
+            <div class="design-row">
+                <img src="images/retroweird/logo1.png" onclick="expand(this);">
+                <img src="images/retroweird/logo2favorite.png" onclick="expand(this);">
+                <img src="images/retroweird/logo3.png" onclick="expand(this);">
+            </div>
+            <div class="design-display">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>  
+                <img id="expandedImg" style="width:100%">
+            </div>
+            <div class="design-info"></div>
+        </div>
+        <script src="scripts/graphicdesign.js" defer></script>
     </div>
 
 
