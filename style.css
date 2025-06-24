@@ -671,7 +671,7 @@ p {
 }
 .design-row{
   height:10vh;
-  width:100%;
+  width:90%;
   display: flex;
   flex-direction: row;
   overflow: scroll;
@@ -694,7 +694,7 @@ p {
 
 
 .design-display{
-  width:100%;
+  width:90%;
   float:center;
   margin:5%;
 
