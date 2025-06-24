@@ -676,11 +676,12 @@ p {
   flex-direction: row;
   overflow: scroll;
   overflow-y: hidden;
+  margin:5%;
 }
 
 .design-img-option{
   height:100%;
-  padding-right:2%;
+  margin-right:5%;
 
 
 }
@@ -693,13 +694,14 @@ p {
 
 
 .design-display{
-  width:80%;
+  width:100%;
   float:center;
-
+  margin:5%;
 
 }
 
 .design-display img{
   width:80%;
   height:auto;
+  float:center;
 }
