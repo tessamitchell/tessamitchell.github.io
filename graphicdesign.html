@@ -47,24 +47,28 @@
     <div class="graphicdesign-container-main">
         <h2>Heads up, this page is currently being worked on, so anything you find here might be a little messy!</h2>
 
-        <div class="design-container">
-            <h2>RetroWeird Logo</h2>
-            <div class="design-row">
-                <div class="design-img-option">
-                    <img src="images/retroweird/logo1.png" onclick="expand(this);">
+        <div class="code-card">
+            <div class="code-image">
+                <div class="design-row">
+                    <div class="design-img-option">
+                        <img src="images/retroweird/logo1.png" onclick="expand(this);">
+                    </div>
+                    <div class="design-img-option">
+                        <img src="images/retroweird/logo2favorite.png" onclick="expand(this);">
+                    </div>
+                    <div class="design-img-option">
+                        <img src="images/retroweird/logo3.png" onclick="expand(this);">
+                    </div>
                 </div>
-                <div class="design-img-option">
-                    <img src="images/retroweird/logo2favorite.png" onclick="expand(this);">
-                </div>
-                <div class="design-img-option">
-                    <img src="images/retroweird/logo3.png" onclick="expand(this);">
+                <div class="design-display">
+                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>  
+                    <img id="expandedImg" style="width:100%">
                 </div>
             </div>
-            <div class="design-display">
-                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>  
-                <img id="expandedImg" style="width:100%">
+            <div class="code-info">
+                <h2>RetroWeird Logo</h2>
             </div>
-            <div class="design-info"></div>
+
         </div>
         <script src="scripts/graphicdesign.js" defer></script>
     </div>
