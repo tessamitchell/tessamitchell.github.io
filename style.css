@@ -650,7 +650,7 @@ p {
   height:fit-content;
   width:96vw;
   min-width:fit-content;
-  background-color: #eeb482;
+  background-color: #eba66b;
   /* display: flex; */
   
   /* padding: 2%; */
@@ -665,6 +665,7 @@ p {
   margin:2%;
   height:fit-content;
   padding:2%;
+  background-color: #eeb482;
 }
 .design-row{
   height:20vh;
