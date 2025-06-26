@@ -19,10 +19,10 @@ function fetchJSONData() {
             // });
 
             // Sort and create cards
-            data.sort((a, b) =>  new Date(b.date) - new Date(a.date)); // sort by most recent
+            //data.sort((a, b) =>  new Date(b.date) - new Date(a.date)); // sort by most recent
 
             data.forEach(project => createCard(project));
-            addTags();
+            //addTags();
         })  
         .catch(error => console.error('Failed to fetch data:', error)); 
 }
