@@ -682,6 +682,7 @@ p {
 
 .design-img-option{
   height:100%;
+  width:fit-content;
   margin-right:3%;
   margin-left:3%;
   transition:.3s ease;
@@ -707,9 +708,8 @@ p {
   float:center;
 }
 
-.design-img-option:hover img{
+.design-img-option:hover{
   
-  opacity:.5;
 }
 .design-img-option:hover{
   background-color:gray;
