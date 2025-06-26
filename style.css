@@ -684,7 +684,7 @@ p {
   height:100%;
   margin-right:3%;
   margin-left:3%;
-
+  transition:.3s ease;
 }
 
 .design-img-option img{
@@ -705,4 +705,13 @@ p {
   width:100%;
 
   float:center;
+}
+
+.design-img-option:hover img{
+  
+  opacity:.5;
+}
+.design-img-option:hover{
+  background-color:gray;
+  opacity:.5;
 }

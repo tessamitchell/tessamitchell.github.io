@@ -29,7 +29,7 @@ function fetchJSONData() {
 fetchJSONData();
 
 function createCard(project){
-    let codeCard=document.createElement("div");
+    const codeCard=document.createElement("div");
     codeCard.className="code-card";
 
 
