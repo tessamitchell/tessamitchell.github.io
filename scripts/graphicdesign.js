@@ -58,8 +58,8 @@ function createCard(project){
             imgrow.append(imgoption);
 
             const imgsmall= document.createElement("img");
-            imgsmall.src=project.image-base + project.images[i];
-            imgsmall.onclick=expand(this);
+            imgsmall.src=project.imagebase + project.images[i];
+            imgsmall.onclick=()=>expand(this);
             imgsmall.alt=project.descriptions[i];
 
             imgoption.append(imgsmall);
@@ -73,7 +73,7 @@ function createCard(project){
     const image=document.createElement("img");
     image.src=imgsmall.src=project.image-base + project.images[0];
     image.id="expandedImg";
-    imgcont.append(image);
+    imagecont.append(image);
     
     
 
