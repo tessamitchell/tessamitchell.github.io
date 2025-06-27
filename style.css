@@ -652,8 +652,13 @@ p {
 }
 
 .about-img-1{
-  height:150px;
+  height:300px;
   float:right;
+  margin:10px;
+}
+.about-img-2{
+  height:300px;
+  float:left;
   margin:10px;
 }
 
@@ -774,7 +779,7 @@ p {
 .design-img-option:hover{
 
   cursor:pointer;
-  /* background-color:#aeafe7 */
+  /* fbackground-color:#aeafe7 */
 }
 .design-img-option:hover h5{
   opacity:1;
