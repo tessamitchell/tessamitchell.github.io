@@ -725,9 +725,11 @@ p {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align:center;
+  color:white;
+  font-size:10px;
 }
 
 
 .design-img-option:hover .hover-overlay{
-  opacity:.5
+  opacity:1;
 }
