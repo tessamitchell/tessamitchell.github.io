@@ -441,6 +441,7 @@ p {
   box-shadow: none;
   translate:1px 1px;
   font-weight: bold;
+  cursor:pointer;
 }
 
 .code-info{
@@ -569,6 +570,7 @@ p {
   box-shadow: none;
   translate:0.5px 0.5px;
   font-weight: bold;
+  cursor:pointer;
 }
 
 .clear-btn{
