@@ -5,9 +5,9 @@ let sampledata={
     name:"RetroWeird Logo Designs",
     imagebase:"https://tessamitchell.github.io/images/retroweird/",
     images:[
-        "logo2-favorite",
-        "logo1",
-        "logo3"],
+        "logo2-favorite.png",
+        "logo1.png",
+        "logo3.png"],
     descriptions:[
         "Here are some words to test.",
         "This design was a follow-along with my professor for the class.  It is not particularly my style or what I would have designed myself, but it was used by our professor to show us tools and techniques in Adobe Illustrator.",
@@ -151,7 +151,7 @@ function createCard(project){
 
 
 
-    document.getElementById("gd-container").append(codeCard);
+    // document.getElementById("gd-container").append(codeCard);
 
     allCards.push(codeCard);
 }
