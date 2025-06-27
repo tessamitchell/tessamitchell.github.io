@@ -5,7 +5,7 @@ let sampledata={
     name:"RetroWeird Logo Designs",
     imagebase:"https://tessamitchell.github.io/images/retroweird/",
     images:[
-        "logo2-favorite.png",
+        "logo2favorite.png",
         "logo1.png",
         "logo3.png"],
     descriptions:[
