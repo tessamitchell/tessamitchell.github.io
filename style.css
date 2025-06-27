@@ -729,10 +729,15 @@ p {
   color:white;
   font-size:10px;
   font-weight: normal;
+  position:absolute;
 }
 
 
 .design-img-option:hover .hover-overlay{
   opacity:.8;
   cursor:pointer;
+}
+.design-img-option:hover h5{
+  opacity:1;
+
 }
