@@ -74,7 +74,7 @@ function createCard(project){
 
             const imgsmall= document.createElement("img");
             imgsmall.src=project.imagebase + project.images[i];
-            imgsmall.onclick=()=>expand(this);
+            imgsmall.onclick=()=>expand(this,i);
             imgsmall.alt=project.descriptions[i];
 
             imgoption.append(imgsmall);
@@ -160,11 +160,12 @@ function createCard(project){
 
 
 
-function expand(imgs) {
+function expand(imgs,i) {
+    
     // Get the expanded image
-    var expandImg = document.getElementById("expandedImg");
+    var expandImg = allCards[i].querySelector("#expandedImg");
     // Get the image text
-    var imgText = document.getElementById("imgdescription");
+    var imgText = allCards[i].querySelector("#imgdescription");
     // Use the same src in the expanded image as the image being clicked on from the grid
     expandImg.src = imgs.src;
     // Use the value of the alt attribute of the clickable image as text inside the expanded image
