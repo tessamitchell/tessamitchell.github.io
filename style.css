@@ -658,6 +658,22 @@ p {
 }
 
 
+.contactcontainermain {
+  margin:2%;
+  margin-top: 7%;
+  top:12vh;
+  min-height: 96vh;
+  height:fit-content;
+  width:96vw;
+  min-width:fit-content;
+  background-color: #eba66b;
+  display: flex;
+
+  padding: 2%;
+  overflow: hidden;   
+  
+}
+
 /* --------------------------------------------------------------------------------------------------------------------------- */
 
 .graphicdesign-container-main {
