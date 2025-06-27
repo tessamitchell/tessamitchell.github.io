@@ -47,7 +47,7 @@ function createCard(project){
     const codeCard=document.createElement("div");
     codeCard.className="code-card";
 
-
+    document.getElementById("gd-container").append(codeCard);
     const col1=document.createElement("div");
     col1.className="code-image";
 
