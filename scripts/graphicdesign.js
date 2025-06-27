@@ -157,3 +157,4 @@ function expand(imgs) {
     // Show the container element (hidden with CSS)
     expandImg.parentElement.style.display = "block";
   }
+

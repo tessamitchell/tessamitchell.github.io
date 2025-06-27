@@ -219,7 +219,7 @@ p {
   float: center;
   width:fit-content;
   height: 100%;
-  position: relative;
+  /* position: relative; */
   
 }
 
