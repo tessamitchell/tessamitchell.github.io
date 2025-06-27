@@ -1,6 +1,21 @@
 let allCards=[];
 let allTags=[];
 
+let sampledata={
+    name:"RetroWeird Logo Designs",
+    imagebase:"https://tessamitchell.github.io/images/retroweird/",
+    images:[
+        "logo2-favorite",
+        "logo1",
+        "logo3"],
+    descriptions:[
+        "Here are some words to test.",
+        "This design was a follow-along with my professor for the class.  It is not particularly my style or what I would have designed myself, but it was used by our professor to show us tools and techniques in Adobe Illustrator.",
+        "Here are some words to test with the joystick logo."],
+    descriptionbase:"These designs were for an Intro to Digital Media Design class I took.  We were supposed to design a few logos for the fictional company 'RetroWeird Software', in line with the company brief we were given: 'The purpose of RetroWeird Software is to create and distribute modern video games that have a retro feel. Modern gaming could include VR and online multiplayer games.'",
+    date:"2024-10-03"
+}
+createCard(sampledata);
 
 function fetchJSONData() {
     fetch('https://tessamitchell.github.io/data/designprojects.json')
@@ -26,7 +41,7 @@ function fetchJSONData() {
         })  
         .catch(error => console.error('Failed to fetch data:', error)); 
 }
-fetchJSONData();
+//fetchJSONData();
 
 function createCard(project){
     const codeCard=document.createElement("div");
