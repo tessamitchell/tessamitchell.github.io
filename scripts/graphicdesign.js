@@ -86,7 +86,7 @@ function createCard(project){
 
 
     const image=document.createElement("img");
-    image.src=imgsmall.src=project.image-base + project.images[0];
+    image.src=project.imagebase + project.images[0];
     image.id="expandedImg";
     imagecont.append(image);
     
