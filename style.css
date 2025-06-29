@@ -709,7 +709,7 @@ p {
   overflow: hidden;
 }
 .design-row{
-  height:13vh;
+  height:12vh;
   width:90%;
   display: flex;
   flex-direction: row;
@@ -723,8 +723,8 @@ p {
 .design-img-option{
   height:100%;
   width:fit-content;
-  margin-right:3%;
-  margin-left:3%;
+  margin-right:2%;
+  margin-left:2%;
   transition:.3s ease;
   position:relative;
 }

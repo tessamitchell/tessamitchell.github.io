@@ -17,9 +17,9 @@
     {
         "name":"RetroWeird Website Mockup",
         "imagebase":"https://tessamitchell.github.io/images/retroweird/",
-        "images":[""],
-        "descriptions":[""],
-        "descriptionbase":"",
+        "images":["websitemockup.JPG"],
+        "descriptions":["For my mockup, I used the Gutenberg Diagram to choose the layout for my website."],
+        "descriptionbase":"This design was for my Intro to Digital Media Design class.  We had to create a mockup in Adobe Photoshop for a website homepage for the fictional company 'RetroWeird Software'.  We had to use our favorite logo from our previous assignment as well as follow a specific color scheme and choose to use either a Z-layout, F-layout, or Gutenberg Diagram.",
         "date":"2024-10-17"
     },
 
