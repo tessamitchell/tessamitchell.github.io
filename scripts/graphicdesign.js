@@ -1,4 +1,4 @@
-let allCards=[];
+let allCards=[document.getElementById("code-card")];
 let allTags=[];
 
 let sampledata={
@@ -74,7 +74,8 @@ function createCard(project){
 
             const imgsmall= document.createElement("img");
             imgsmall.src=project.imagebase + project.images[i];
-            imgsmall.onclick=()=>expand(this,i);
+            let index=allCards.length;
+            imgsmall.onclick=()=>expand(this,index);
             imgsmall.alt=project.descriptions[i];
 
             imgoption.append(imgsmall);
