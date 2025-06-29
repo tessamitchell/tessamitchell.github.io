@@ -75,7 +75,7 @@ function createCard(project){
             const imgsmall= document.createElement("img");
             imgsmall.src=project.imagebase + project.images[i];
             let index=allCards.length;
-            imgsmall.onclick=()=>expand(this,index);
+            imgsmall.onclick=()=>expand(imgsmall,index);
             imgsmall.alt=project.descriptions[i];
 
             imgoption.append(imgsmall);
