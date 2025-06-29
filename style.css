@@ -789,3 +789,13 @@ p {
   box-shadow:0px 0px 10px 10px rgba(0,0,0,0.4);
 
 }
+
+.art-card{
+  /* padding:10px; */
+  background-color: #333475;
+  margin:2%;
+  margin-bottom:20px; 
+  display:flex;
+  flex-direction: row;
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+}
