@@ -25,13 +25,19 @@
 
     {
         "name":"MU Quizbowl Logo Designs",
-        "imagebase":"",
-        "images":[""],
+        "imagebase":"https://tessamitchell.github.io/images/quizbowl/",
+        "images":["logo_v2.png","quizzy_nowords.png","sticker_buzzer_2d.png","sticker_vertical_nocord.png"],
         "descriptions":[""],
-        "descriptionbase":""
+        "descriptionbase":"I am a member of Mizzou's Quiz Bowl team, and am currently the club treasurer and social media manager.  As part of my involvement with the club, I decided to remake the club logo as well as make designs for stickers."
+    },
+
+
+
+    {
+        "name":"TeePublic Art",
+        "imagebase":"https://tessamitchell.github.io/images/",
+        "images":["teepublic.png"],
+        "descriptions":["I'm including this as a sample of my other art, although because I base a lot of my designs on references to tv shows and various media, I can't always guarantee that they'll always be 'safe for work' (never anything egregious, at most probably swearing), although they are at the moment."],
+        "descriptionbase":"In my free time, I create designs for some of my interests.  I then upload these designs to the website TeePublic to sell on t-shirts, stickers, coffee mugs, etc."
     }
-
-
-
-
 ]

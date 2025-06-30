@@ -43,6 +43,9 @@ function fetchJSONData() {
 }
 fetchJSONData();
 
+
+
+
 function createCard(project){
     const codeCard=document.createElement("div");
     codeCard.className="code-card";
@@ -85,11 +88,23 @@ function createCard(project){
     imagecont.className="design-display";
     col1.append(imagecont);
 
-
     const image=document.createElement("img");
     image.src=project.imagebase + project.images[0];
     image.id="expandedImg";
-    imagecont.append(image);
+
+    
+
+    if(project.name.toLowerCase().includes("teepublic")){
+        const link=document.createElement("a");
+        link.src="https://www.teepublic.com/user/beloveandabow";
+        link.target="_blank";
+        imagecont.append(link);
+        link.append(image);
+    }
+    else{
+        imagecont.append(image);
+    }
+    
     
     
 
