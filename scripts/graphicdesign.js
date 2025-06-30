@@ -96,9 +96,10 @@ function createCard(project){
 
     if(project.name.toLowerCase().includes("teepublic")){
         const link=document.createElement("a");
-        link.src="https://www.teepublic.com/user/beloveandabow";
+        link.href="https://www.teepublic.com/user/beloveandabow";
         link.target="_blank";
         imagecont.append(link);
+        
         link.append(image);
     }
     else{
