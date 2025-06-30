@@ -26,9 +26,18 @@
     {
         "name":"MU Quizbowl Logo Designs",
         "imagebase":"https://tessamitchell.github.io/images/quizbowl/",
-        "images":["logo_v1.png","quizzy_nowords.png","sticker_buzzer_2d.png","sticker_vertical_nocord.png"],
-        "descriptions":[""],
-        "descriptionbase":"I am a member of Mizzou's Quiz Bowl team, and am currently the club treasurer and social media manager.  As part of my involvement with the club, I decided to remake the club logo as well as make designs for stickers."
+        "images":[
+            "logo_v1.png",
+            "quizzy_nowords.png",
+            "sticker_buzzer_2d.png",
+            "sticker_vertical_nocord.png"],
+        "descriptions":[
+            "This logo I made to replace the current one we were using on our social media sites and university page.",
+            "This design was made as a potential sticker, taking inspiration from a whiteboard doodle another club-member made during a practice.",
+            "This design was used our final sticker design, hence the shape.",
+            "This was another potential sticker design I made, but wasn't ultimately voted for by club members."
+        ],
+        "descriptionbase":"I am a member of Mizzou's Quiz Bowl team, and am currently the club treasurer and social media manager.  As part of my involvement with the club, I decided to remake the club logo as well as make designs for stickers.  In doing so, I made a lot of variations of similar designs, and these are a select few."
     },
 
 

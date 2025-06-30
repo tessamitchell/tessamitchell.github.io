@@ -140,7 +140,9 @@ function createCard(project){
     const description=document.createElement("p");
     description.textContent=project.descriptions[0];
     description.id="imgdescription";
+    description.className="imgdescription";
     col2.append(description);
+
     
 
     // const tags=document.createElement("div");
