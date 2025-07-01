@@ -7,10 +7,10 @@
             "logo1.png",
             "logo3.png"],
         "descriptions":[
-            "Here are some words to test.",
-            "This design was a follow-along with my professor for the class.  It is not particularly my style or what I would have designed myself, but it was used by our professor to show us tools and techniques in Adobe Illustrator.",
-            "Here are some words to test with the joystick logo."],
-        "descriptionbase":"These designs were for an Intro to Digital Media Design class I took.  We were supposed to design a few logos for the fictional company 'RetroWeird Software', in line with the company brief we were given: 'The purpose of RetroWeird Software is to create and distribute modern video games that have a retro feel. Modern gaming could include VR and online multiplayer games.'",
+            "Console Logo: This is my favorite logo that I made for this assignment.  I was inspired by the Nintendo Game Boy, but generalized the design to be reminiscent of hand-held gaming consoles as a whole.  And while I don't have an official mockup, what I like about this design is the versatility, meaning it has opportunities like making a smaller logo variation with just the gaming console and the letters 'RWS' on the screen, etc.",
+            "Class Logo: This design was a follow-along with my professor for the class.  It is not particularly my style or what I would have designed myself, but it was used by our professor to show us tools and techniques in Adobe Illustrator.",
+            "Joystick Logo: I like the potential of this logo, however, I feel like it still needs some work to make it work.  The text is too skinny, so the actual company name can't be read at all scales.  If I were to improve it, I'd probably play with the thickness of the text and possibly simplify the joystick."],
+        "descriptionbase":"These designs were for an Intro to Digital Media Design class I took.  We were supposed to design a few logos for the fictional company 'RetroWeird Software', in line with the company brief we were given: 'The purpose of RetroWeird Software is to create and distribute modern video games that have a retro feel. Modern gaming could include VR and online multiplayer games.'  I had to make one logo following our teacher's tutorial, and two other unique ones.",
         "date":"2024-10-03"
     },
 
@@ -18,7 +18,7 @@
         "name":"RetroWeird Website Mockup",
         "imagebase":"https://tessamitchell.github.io/images/retroweird/",
         "images":["websitemockup.jpg"],
-        "descriptions":["For my mockup, I used the Gutenberg Diagram to choose the layout for my website."],
+        "descriptions":["For my mockup, I used the Gutenberg Diagram that we learned about in class to choose the layout for my website. I stuck with the color scheme I had chosen for my logo.  The image on the left was AI generated using Adobe Firefly (as expected by the specs of the assignment) to use as a placeholder for the branding of the website without any copyrights."],
         "descriptionbase":"This design was for my Intro to Digital Media Design class.  We had to create a mockup in Adobe Photoshop for a website homepage for the fictional company 'RetroWeird Software'.  We had to use our favorite logo from our previous assignment as well as follow a specific color scheme and choose to use either a Z-layout, F-layout, or Gutenberg Diagram.",
         "date":"2024-10-17"
     },
