@@ -146,9 +146,10 @@ function addTags(){
         tag.onclick=() => filterbytag(allTags[i]);
 
         const x = document.createElement("span");
-        x.textContent="\u00D7";
+        x.textContent=" \u00D7 ";
         x.id="x";
         x.click=()=>removefilters();
+        x.style.display="none";
         tag.append(x);
 
         filtertags.append(tag);
@@ -199,7 +200,7 @@ function filterbytag(tag){
     
     let allFilters=document.getElementById("filter-tags").querySelectorAll(".tag-filter");;
     allFilters.forEach(filter=>{
-        if(filter.textContent===tag){
+        if(filter.textContent.includes(tag)){
             filter.style.backgroundColor = "#aeafe7";
             filter.style.fontWeight = "bold";
             filter.querySelector("#id").display="";
