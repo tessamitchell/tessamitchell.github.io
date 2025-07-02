@@ -41,6 +41,16 @@
         "description":"This project is the website you're currently looking at.  It is my first time working with html/css since I was in 7th grade and learned basic HTML in my computers class, which also means I retaught myself all of that and much more in order to build this website.",
         "date":"2025-06-20",
         "tags":["Web Dev", "HTML/CSS","JavaScript","Front-End"]
+    },
+    {
+        "name":"Chatroom Client/Server",
+        "github":null, 
+        "brief":"This project was developed for my Computer Networks course.  We had to develop both the client side and server side of a chatroom application to practice implementing networking requests.",
+        "image":"chatroomapp.png",
+        "video":null,
+        "description":"It's a relatively bare-bones application (our output had to match the expected output exactly).  This was my first time working with socket programming.  I also worked on an extra credit application that used threading to support multiple clients, but I wasn't able to get it working before the assignment was due (I was running into issues with implementing threading on the client side, and this was my first time using threading and it hadn't been covered in class).",
+        "date":"2025-03-21",
+        "tags":["Console App", "Client Side", "Server Side", "Threading", "Socket Programming", "Python"]
     }
   
 ]
