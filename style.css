@@ -685,15 +685,16 @@ p {
   margin:2%;
   margin-top: 7%;
   top:12vh;
-  min-height:95vh;
-  height:fit-content;
+  height:95vh;
+  
   width:96vw;
   
   background-color: #eba66b;
   /* display: flex; */
   
   /* padding: 2%; */
-  overflow: hidden;
+  overflow: auto;
+  overflow-x: hidden;
   /* display:table; */
   display: flex;
   flex-direction:column;

@@ -143,6 +143,8 @@ function createCard(project){
     description.id="imgdescription";
     description.className="imgdescription";
     col2.append(description);
+    const software=document.createElement("p");
+    software.textContent="Created with: " + project.software;
 
     
 
