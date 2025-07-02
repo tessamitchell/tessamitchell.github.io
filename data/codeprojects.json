@@ -46,11 +46,21 @@
         "name":"Chatroom Client/Server",
         "github":null, 
         "brief":"This project was developed for my Computer Networks course.  We had to develop both the client side and server side of a chatroom application to practice implementing networking requests.",
-        "image":"chatroomapp.png",
+        "image":"https://tessamitchell.github.io/images/chatroomapp.png",
         "video":null,
         "description":"It's a relatively bare-bones application (our output had to match the expected output exactly).  This was my first time working with socket programming.  I also worked on an extra credit application that used threading to support multiple clients, but I wasn't able to get it working before the assignment was due (I was running into issues with implementing threading on the client side, and this was my first time using threading and it hadn't been covered in class).",
         "date":"2025-03-21",
         "tags":["Console App", "Client Side", "Server Side", "Threading", "Socket Programming", "Python"]
+    },
+    {
+        "name":"Class Labs",
+        "github":null, 
+        "brief":null,
+        "image":"",
+        "video":null,
+        "description":"The projects on this page are a small snapshot of what I have done in CS, and I have experience with a variety of other topics that I have learned about in my classes and then used in coding lab assignments for those classes.  It feels redundant to create a project listing for each of those (non-project based) labs/class assignments, so instead I am going to cover some of those skills here. \n These classes include the Data Structures and Algorithms, Assembly, etc.  Some of the lab topics include things like linked lists, hash tables, binary trees, graphs, various searching and sorting methods, etc.",
+        "date":null,
+        "tags":[]
     }
   
 ]
