@@ -311,6 +311,7 @@ p {
   width:auto;
   margin-left:5px;
   margin-right:5px;
+  vertical-align: middle;
 }
 
 .footer-right p{
@@ -319,6 +320,7 @@ p {
     float:right;
 
     color:white;
+    padding:0;
 
 }
 .footer-left{
@@ -339,6 +341,7 @@ p {
     width:auto;
     display:inline;
     color:lightgray;
+    vertical-align:middle;
 }
 
 
