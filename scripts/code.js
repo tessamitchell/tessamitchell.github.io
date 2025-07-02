@@ -33,7 +33,8 @@ let sortdesc = document.getElementById("sort");
 sortdesc.addEventListener("change",sortby);
 
 const x = document.createElement("span");
-x.textContent="&times;";
+x.textContent="\u00D7";
+x.id="x";
 x.click=()=>removefilters();
 
 function createCard(project){
@@ -172,6 +173,7 @@ function addTags(){
         tag.style.marginRight=String(30/allTags.length)+"%";
         
         tag.onclick=() => filterbytag(allTags[i]);
+        tag.append(x);
 
         filtertags.append(tag);
     }
@@ -224,12 +226,12 @@ function filterbytag(tag){
         if(filter.textContent===tag){
             filter.style.backgroundColor = "#aeafe7";
             filter.style.fontWeight = "bold";
-            filter.append(x);
+            filter.querySelector("#id").display="";
         }
         else{
             filter.style.backgroundColor = "#626280";
             filter.style.fontWeight = "normal";
-            filter.innerHTML="";
+            filter.querySelector("#id").display="none";
         }
         
         
