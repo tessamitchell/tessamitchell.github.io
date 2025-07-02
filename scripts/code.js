@@ -32,42 +32,13 @@ fetchJSONData();
 let sortdesc = document.getElementById("sort");
 sortdesc.addEventListener("change",sortby);
 
-const x = document.createElement("span");
-x.textContent="\u00D7";
-x.id="x";
-x.click=()=>removefilters();
+
 
 function createCard(project){
 
     let codeCard=document.createElement("div");
     codeCard.className="code-card";
 
-    
-
-    // const table=document.createElement("table");
-    // codeCard.append(table);
-
-    // const row1=document.createElement("tr");
-    // table.append(row1);
-
-    // const col1=document.createElement("th")
-    // col1.className="code-image";
-
-    // row1.append(col1);
-
-    // const col2=document.createElement("th");
-    // col2.className="code-info";
-    // row1.append(col2);
-
-
-    
-
-    // const container=document.createElement("div");
-    // container.className="codecontainer";
-    // codeCard.append(container);
-
-    // const row1=document.createElement("tr");
-    // table.append(row1);
 
     const col1=document.createElement("div")
     col1.className="code-image";
@@ -173,6 +144,11 @@ function addTags(){
         tag.style.marginRight=String(30/allTags.length)+"%";
         
         tag.onclick=() => filterbytag(allTags[i]);
+
+        const x = document.createElement("span");
+        x.textContent="\u00D7";
+        x.id="x";
+        x.click=()=>removefilters();
         tag.append(x);
 
         filtertags.append(tag);
