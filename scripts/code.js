@@ -150,6 +150,7 @@ function addTags(){
         x.id="x";
         x.click=()=>removefilters();
         x.style.display="none";
+        x.style.fontWeight="bold";
         tag.append(x);
 
         filtertags.append(tag);
