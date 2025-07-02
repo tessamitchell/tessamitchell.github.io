@@ -32,7 +32,9 @@ fetchJSONData();
 let sortdesc = document.getElementById("sort");
 sortdesc.addEventListener("change",sortby);
 
-
+const x = document.createElement("span");
+x.textContent="&times;";
+x.click=()=>removefilters();
 
 function createCard(project){
 
@@ -219,8 +221,18 @@ function filterbytag(tag){
     
     let allFilters=document.getElementById("filter-tags").querySelectorAll(".tag-filter");;
     allFilters.forEach(filter=>{
-        filter.style.backgroundColor = (filter.textContent===tag) ? "#aeafe7" :"#626280";
-        filter.style.fontWeight = (filter.textContent===tag) ? "bold" :"normal";
+        if(filter.textContent===tag){
+            filter.style.backgroundColor = "#aeafe7";
+            filter.style.fontWeight = "bold";
+            filter.append(x);
+        }
+        else{
+            filter.style.backgroundColor = "#626280";
+            filter.style.fontWeight = "normal";
+            filter.innerHTML="";
+        }
+        
+        
     })
     document.getElementById("clear-btn").disabled=false;
 
