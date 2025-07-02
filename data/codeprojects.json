@@ -55,10 +55,10 @@
     {
         "name":"Class Labs",
         "github":null, 
-        "brief":null,
+        "brief":"The projects on this page are a small snapshot of what I have done in CS, and I have experience with a variety of other topics that I have learned about in my classes and then used in coding lab assignments for those classes.  It feels redundant to create a project listing for each of those (non-project based) labs/class assignments, so instead I am going to cover some of those skills here.",
         "image":"https://tessamitchell.github.io/images/mizzoucs.jpg",
         "video":null,
-        "description":"The projects on this page are a small snapshot of what I have done in CS, and I have experience with a variety of other topics that I have learned about in my classes and then used in coding lab assignments for those classes.  It feels redundant to create a project listing for each of those (non-project based) labs/class assignments, so instead I am going to cover some of those skills here. \n These classes include the multipe Data Structures and Algorithms classes, Assembly, etc.  Some of the lab topics include things like linked lists, hash tables, binary trees, graphs, various searching and sorting methods, etc.  These assignments were almost always writting in C.",
+        "description":"These classes include the multipe Data Structures and Algorithms classes, Assembly, etc.  Some of the lab topics include things like linked lists, hash tables, binary trees, graphs, various searching and sorting methods, etc.  These assignments were almost always writting in C.",
         "date":null,
         "tags":[]
     }

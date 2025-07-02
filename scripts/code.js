@@ -204,12 +204,12 @@ function filterbytag(tag){
         if(filter.textContent.includes(tag)){
             filter.style.backgroundColor = "#aeafe7";
             filter.style.fontWeight = "bold";
-            filter.querySelector("#id").display="";
+            filter.querySelector("#x").display="";
         }
         else{
             filter.style.backgroundColor = "#626280";
             filter.style.fontWeight = "normal";
-            filter.querySelector("#id").display="none";
+            filter.querySelector("#x").display="none";
         }
         
         
@@ -228,6 +228,7 @@ function removefilters(){
     allFilters.forEach(filter=>{
         filter.style.backgroundColor="#aeafe7" ;
         filter.style.fontWeight="normal" ;
+        filter.querySelector("#x").display="none";
     })
 
     document.getElementById("clear-btn").disabled=true;
