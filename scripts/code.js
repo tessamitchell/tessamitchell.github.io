@@ -201,7 +201,7 @@ function filterbytag(tag){
     
     let allFilters=document.getElementById("filter-tags").querySelectorAll(".tag-filter");;
     allFilters.forEach(filter=>{
-        if(filter.textContent===(tag)){
+        if(filter.textContent.includes(tag)){
             filter.style.backgroundColor = "#aeafe7";
             filter.style.fontWeight = "bold";
             filter.querySelector("#x").display="";
