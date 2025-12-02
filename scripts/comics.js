@@ -2,19 +2,21 @@
 var modal = document.getElementById("myModal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-var img =document.getElementById("myImg");
-var imgs = document.getElementsByClassName("myImgs");
+var img =document.getElementById("comicImg");
+// var imgs = document.getElementsByClassName("comicImgs");
+
+var pages= ["https://tessamitchell.github.io/images/comics/hedypage1.png","https://tessamitchell.github.io/images/comics/hedypage2.png"];
 var modalImg = document.getElementById("m-scontent");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
   modal.style.display = "block";
 //   modalImg.src = this.src;
 
-    for (var img in imgs){
+    for (var page in pages){
             const newImage = document.createElement('img');
 
 // Set the source of the image
-            newImage.src = img.src;
+            newImage.src = page;
 
 // Optionally, set an alt attribute for accessibility
             newImage.alt = 'Description of the image';
