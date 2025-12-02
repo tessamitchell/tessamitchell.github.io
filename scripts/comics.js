@@ -8,21 +8,24 @@ var img =document.getElementById("comicImg");
 var pages= ["https://tessamitchell.github.io/images/comics/hedypage1.png","https://tessamitchell.github.io/images/comics/hedypage2.png"];
 var modalImg = document.getElementById("m-scontent");
 var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-//   modalImg.src = this.src;
 
-    for (var page in pages){
+for (let i=0;i<pages.length;i++){
             const newImage = document.createElement('img');
 
 // Set the source of the image
-            newImage.src = page;
+            newImage.src = pages[i];
 
 // Optionally, set an alt attribute for accessibility
             newImage.alt = 'Description of the image';
 
             modal.append(newImage);
-    }
+}
+
+img.onclick = function(){
+  modal.style.display = "block";
+//   modalImg.src = this.src;
+
+    
 
 
   captionText.innerHTML = this.alt;
