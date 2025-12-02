@@ -14,6 +14,7 @@ for (let i=0;i<pages.length;i++){
 
 // Set the source of the image
             newImage.src = pages[i];
+            newImage.style.width = "90%";
 
 // Optionally, set an alt attribute for accessibility
             newImage.alt = 'Description of the image';
