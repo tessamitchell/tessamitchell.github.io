@@ -14,7 +14,7 @@ img.onclick = function(){
             const newImage = document.createElement('img');
 
 // Set the source of the image
-            newImage.src = 'path/to/your/image.jpg';
+            newImage.src = img.src;
 
 // Optionally, set an alt attribute for accessibility
             newImage.alt = 'Description of the image';
