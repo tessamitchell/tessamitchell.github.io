@@ -12,8 +12,8 @@
     {
         "name":"Biographical Comic", 
         "brief":"This was part of the class's 2-page comic series, this one being biographical, albeit up to our interpretation.  We could tell the story of someone's life, a moment in someone's life, or even reinterpret moments of someone's life/put an existing person into a new situation.",
-        "thumbnail":"https://tessamitchell.github.io/images/comics/hedydrawnthumbnail.JPG",
-        "images":["https://tessamitchell.github.io/images/comics/hedydrawnpg1.JPG","https://tessamitchell.github.io/images/comics/hedydrawnpg2.JPG"],
+        "thumbnail":"https://tessamitchell.github.io/images/comics/hedydrawnthumbnail.jpg",
+        "images":["https://tessamitchell.github.io/images/comics/hedydrawnpg1.jpg","https://tessamitchell.github.io/images/comics/hedydrawnpg2.jpg"],
         "description":"For my comic, I chose to make mine about Hedy Lamarr, whose story I first learned when I did a research project on her in 8th grade.  Most of the information in this comic is completely true (although there are different accounts of how she left her husband in Austria, I just chose a specific one to draw).",
         "date":"2025-10-01",
         "background":"black",
