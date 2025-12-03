@@ -103,7 +103,7 @@ function createCard(project){
 
     const modal = document.createAttribute("div");
     modal.className="comics-modal";
-    document.body.append(modal);
+    codeCard.append(modal);
 
     const x = document.createAttribute("span");
     x.className="close"
