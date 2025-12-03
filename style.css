@@ -834,20 +834,23 @@ p {
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
-
-/* Modal Content (Image) */
-.modal-content {
   margin: auto;
   display: block;
-  width: 80%;
+  
   max-width: 700px;
   align-items: center;
   align-content: center;
+  justify-content: center;
 }
-.modal-content img{
+
+
+.comics-modal img{
   align-self: center;
   width:90%;
+  display: block; /* Make the image a block-level element */
+  margin-left: 5%; /* Push the image to the right as much as possible */
+  margin-right: 5%;
+  justify-content: center;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -877,7 +880,7 @@ p {
 .close {
   position: absolute;
   top: 15px;
-  right: 35px;
+  right: 10px;
   color: #f1f1f1;
   font-size: 40px;
   font-weight: bold;
