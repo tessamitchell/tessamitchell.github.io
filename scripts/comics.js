@@ -103,7 +103,7 @@ function createCard(project){
 
     const modal = document.createAttribute("div");
     modal.className="comics-modal";
-    codeCard.append(modal);
+    
 
     const x = document.createAttribute("span");
     x.className="close"
@@ -116,6 +116,7 @@ function createCard(project){
 
         modal.append(newImage);
     }
+    codeCard.append(modal);
 
     image.onclick = function(){
         modal.style.display = "block";
