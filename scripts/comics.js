@@ -101,11 +101,11 @@ function createCard(project){
     }
     col2.append(tags);
 
-    const modal = document.createAttribute("div");
+    const modal = document.createElement("div");
     modal.className="comics-modal";
-    
+    codeCard.append(modal);
 
-    const x = document.createAttribute("span");
+    const x = document.createElement("span");
     x.className="close"
     x.innerHTML="&times;"
     modal.append(x)
@@ -113,10 +113,10 @@ function createCard(project){
     for (let i=0;i<project.images.length;i++){
         const newImage = document.createElement('img');
         newImage.src = project.images[i];
-
+        newImage.style.width="90%";
         modal.append(newImage);
     }
-    codeCard.append(modal);
+    
 
     image.onclick = function(){
         modal.style.display = "block";
