@@ -1,33 +1,33 @@
 [
     {
         "name":"Beauty and Brains", 
-        "brief":"",
-        "thumbnail":"https://tessamitchell.github.io/images//comics/hedythumbnail.png",
-        "images":["https://tessamitchell.github.io/images//comics/hedypage1.png","https://tessamitchell.github.io/images//comics/hedypage2.png"],
+        "brief":"We were asked to revise one of our two-page comics to be printed in a class collection.  In this case, revising meant to change as much as you wanted, but the bare minimum was to add a title and byline, as well as made sure our comic strictly adhered to the 1/4-inch margins (for optimal printing).",
+        "thumbnail":"https://tessamitchell.github.io/images/comics/hedythumbnail.png",
+        "images":["https://tessamitchell.github.io/images/comics/hedypage1.png","https://tessamitchell.github.io/images/comics/hedypage2.png"],
         "description":"",
         "date":"2025-11-12",
         "background":"black",
-        "tags":["Grayscale", "WPF","Digital","Krita"]
+        "tags":["Grayscale","Digital","Krita","Biographical","2 Pages"]
     },
     {
-        "name":"Beauty and Brains", 
-        "brief":"",
-        "thumbnail":"https://tessamitchell.github.io/images//comics/hedythumbnail.png",
-        "images":["https://tessamitchell.github.io/images//comics/hedypage1.png","https://tessamitchell.github.io/images//comics/hedypage2.png"],
-        "description":"",
-        "date":"2025-11-12",
+        "name":"Biographical Comic", 
+        "brief":"This was part of the class's 2-page comic series, this one being biographical, albeit up to our interpretation.  We could tell the story of someone's life, a moment in someone's life, or even reinterpret moments of someone's life/put an existing person into a new situation.",
+        "thumbnail":"https://tessamitchell.github.io/images/comics/hedydrawnthumbnail.JPG",
+        "images":["https://tessamitchell.github.io/images/comics/hedydrawnpg1.JPG","https://tessamitchell.github.io/images/comics/hedydrawnpg2.JPG"],
+        "description":"For my comic, I chose to make mine about Hedy Lamarr, whose story I first learned when I did a research project on her in 8th grade.  Most of the information in this comic is completely true (although there are different accounts of how she left her husband in Austria, I just chose a specific one to draw).",
+        "date":"2025-10-01",
         "background":"black",
-        "tags":["Grayscale", "WPF","Digital","Krita"]
+        "tags":["Grayscale", "Alcohol Pens","Paper","Biographical","2 Pages"]
     },
     {
-        "name":"Beauty and Brains", 
-        "brief":"",
-        "thumbnail":"https://tessamitchell.github.io/images//comics/hedythumbnail.png",
-        "images":["https://tessamitchell.github.io/images//comics/hedypage1.png","https://tessamitchell.github.io/images//comics/hedypage2.png"],
-        "description":"",
-        "date":"2025-11-12",
+        "name":"Autobiographical Comic", 
+        "brief":"This was part of the class's 2-page comic series, this one being loosely based on true events from our life, with it up to us just how loose those interpretations were.",
+        "thumbnail":"https://tessamitchell.github.io/images/comics/hedythumbnail.png",
+        "images":["https://tessamitchell.github.io/images/comics/hedypage1.png","https://tessamitchell.github.io/images/comics/hedypage2.png"],
+        "description":"I chose to tell the story of when I accidentally got my brother to burn his hand on the stove.  We were somewhere between the ages of 10-12 (me) and 8-10 (my brother), and while the first page of the story might not have explicitly happened in partnership with the second, the what, why, and how of the story were unchanged.",
+        "date":"2025-09-22",
         "background":"black",
-        "tags":["Grayscale", "WPF","Digital","Krita"]
+        "tags":["Grayscale","Alcohol Pens","Paper","Autobiographical","2 Pages"]
     }
 
 
