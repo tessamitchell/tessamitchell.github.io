@@ -44,25 +44,30 @@
 <body>
     
 
-    <div class="graphicdesign-container-main" id="gd-container">
-        <!-- Trigger the Modal -->
-        <img class="comicImgs" id="comicImg" src="https://tessamitchell.github.io/images/comics/hedypage1.png" alt="Snow" style="width:100%;max-width:300px">
-        <!-- <img class="comicImgs" id="comicImg2" src="https://tessamitchell.github.io/images/comics/hedypage2.png" alt="Snow" style="width:100%;max-width:300px"> -->
+    <div class="comics-container-main" id="mainbody">
+        <div class="filters">
+            
+            <button  id="clear-btn"  class="clear-btn"  onclick="removefilters()"  disabled>Clear</button>
+            
+            <div class="filter-tags" id="filter-tags">
 
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-
-            <!-- The Close Button -->
-            <span class="close">&times;</span>
-
-            <!-- Modal Content (The Image) -->
-            <!-- <img class="modal-content" id="img01"> -->
-            <div class="modal-content" id="m-content"></div>
-
-            <!-- Modal Caption (Image Text) -->
-            <div id="caption"></div>
+            </div>
+            <label for="sort">Sort by: </label>
+            <select name="sort" id="sort" onchange="sortby()">
+                <option value="date down">Most Recent</option>
+                <option value="date up">Least Recent</option>
+                <option value="name">Alphabetical</option>
+            </select>
+            
         </div>
-        <script src="scripts/comics.js" ></script>
+
+        <div class="code-cards-container" id="code-cards-container">
+            <script src="scripts/comics.js" defer></script>
+        </div>
+
+
+
+
 
 
         <!-- <div class="code-card">

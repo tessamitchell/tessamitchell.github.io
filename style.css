@@ -822,7 +822,7 @@ p {
 #myImg:hover {opacity: 0.7;}
 
 /* The Modal (background) */
-.modal {
+.comics-modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -842,6 +842,12 @@ p {
   display: block;
   width: 80%;
   max-width: 700px;
+  align-items: center;
+  align-content: center;
+}
+.modal-content img{
+  align-self: center;
+  width:90%;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -891,3 +897,4 @@ p {
     width: 100%;
   }
 }
+
