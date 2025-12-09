@@ -23,9 +23,9 @@
     {
         "name":"Longform Comic", 
         "brief":"This was my final project for the class, an 8+ page comic.",
-        "thumbnail":"https://tessamitchell.github.io/images/comics/final/thumbnail.png",
+        "thumbnail":"https://tessamitchell.github.io/images/comics/final/thumbnail.jpg",
         "images":["https://tessamitchell.github.io/images/comics/final/pg1.jpg","https://tessamitchell.github.io/images/comics/final/pg2.jpg","https://tessamitchell.github.io/images/comics/final/pg3.jpg","https://tessamitchell.github.io/images/comics/final/pg4.jpg","https://tessamitchell.github.io/images/comics/final/pg5.jpg","https://tessamitchell.github.io/images/comics/final/pg6.jpg","https://tessamitchell.github.io/images/comics/final/pg7.jpg","https://tessamitchell.github.io/images/comics/final/pg8.jpg","https://tessamitchell.github.io/images/comics/final/pg9.jpg"],
-        "description":"A story to be continued",
+        "description":"The story here is to be continued, a hypothetical first chapter of a longer graphic novel that ends on a cliff hanger.  I was inspired by a one-off line from a TV show, and created this, 9 pages that barely scratch the surface of the story I want to tell.",
         "date":"2025-12-25",
         "background":"black",
         "tags":["Grayscale","Alcohol Pens","Paper","Longform","Narrative"]
