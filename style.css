@@ -897,7 +897,7 @@ p {
     width: 100%;
   }
   .comics-modal img{
-    width: 95%;
+    width: 95vw;
     margin-left: auto;
     margin-right: auto;
   }
