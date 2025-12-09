@@ -19,16 +19,7 @@
         "background":"black",
         "tags":["Grayscale", "Alcohol Pens","Paper","Biographical","2 Pages"]
     },
-    {
-        "name":"Autobiographical Comic", 
-        "brief":"This was part of the class's 2-page comic series, this one being loosely based on true events from our life, with it up to us just how loose those interpretations were.",
-        "thumbnail":"https://tessamitchell.github.io/images/comics/hedythumbnail.png",
-        "images":["https://tessamitchell.github.io/images/comics/hedypage1.png","https://tessamitchell.github.io/images/comics/hedypage2.png"],
-        "description":"I chose to tell the story of when I accidentally got my brother to burn his hand on the stove.  We were somewhere between the ages of 10-12 (me) and 8-10 (my brother), and while the first page of the story might not have explicitly happened in partnership with the second, the what, why, and how of the story were unchanged.",
-        "date":"2025-09-22",
-        "background":"black",
-        "tags":["Grayscale","Alcohol Pens","Paper","Autobiographical","2 Pages"]
-    },
+    
     {
         "name":"Longform Comic", 
         "brief":"This was my final project for the class, an 8+ page comic.",
