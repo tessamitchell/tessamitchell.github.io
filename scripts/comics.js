@@ -122,7 +122,7 @@ function createCard(project){
            modal.style.display="block"; 
     }
     else{
-        modal.style.display="block"; 
+        modal.style.display="none"; 
     }
 
     image.onclick = function(){

@@ -1,14 +1,5 @@
 [
-    {
-        "name":"Longform Comic", 
-        "brief":"This was my final project for the class, an 8+ page comic.",
-        "thumbnail":"https://tessamitchell.github.io/images/comics/final/thumbnail.png",
-        "images":["https://tessamitchell.github.io/images/comics/final/pg1.jpg","https://tessamitchell.github.io/images/comics/final/pg2.jpg","https://tessamitchell.github.io/images/comics/final/pg3.jpg","https://tessamitchell.github.io/images/comics/final/pg4.jpg","https://tessamitchell.github.io/images/comics/final/pg5.jpg","https://tessamitchell.github.io/images/comics/final/pg6.jpg","https://tessamitchell.github.io/images/comics/final/pg7.jpg","https://tessamitchell.github.io/images/comics/final/pg8.jpg","https://tessamitchell.github.io/images/comics/final/pg9.jpg"],
-        "description":"A story to be continued",
-        "date":"2025-12-25",
-        "background":"black",
-        "tags":["Grayscale","Alcohol Pens","Paper","Longform","Narrative"]
-    },
+    
     {
         "name":"Beauty and Brains", 
         "brief":"We were asked to revise one of our two-page comics to be printed in a class collection.  In this case, revising meant to change as much as you wanted, but the bare minimum was to add a title and byline, as well as made sure our comic strictly adhered to the 1/4-inch margins (for optimal printing).",
@@ -28,6 +19,16 @@
         "date":"2025-10-01",
         "background":"black",
         "tags":["Grayscale", "Alcohol Pens","Paper","Biographical","2 Pages"]
+    },
+    {
+        "name":"Longform Comic", 
+        "brief":"This was my final project for the class, an 8+ page comic.",
+        "thumbnail":"https://tessamitchell.github.io/images/comics/final/thumbnail.png",
+        "images":["https://tessamitchell.github.io/images/comics/final/pg1.jpg","https://tessamitchell.github.io/images/comics/final/pg2.jpg","https://tessamitchell.github.io/images/comics/final/pg3.jpg","https://tessamitchell.github.io/images/comics/final/pg4.jpg","https://tessamitchell.github.io/images/comics/final/pg5.jpg","https://tessamitchell.github.io/images/comics/final/pg6.jpg","https://tessamitchell.github.io/images/comics/final/pg7.jpg","https://tessamitchell.github.io/images/comics/final/pg8.jpg","https://tessamitchell.github.io/images/comics/final/pg9.jpg"],
+        "description":"A story to be continued",
+        "date":"2025-12-25",
+        "background":"black",
+        "tags":["Grayscale","Alcohol Pens","Paper","Longform","Narrative"]
     }
     
 
