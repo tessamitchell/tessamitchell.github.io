@@ -835,15 +835,11 @@ p {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
   margin: auto;
-  display: block;
-  
-  
+
   align-items: center;
   align-content: center;
   justify-content: center;
 }
-
-
 
 .comics-modal img{
   align-self: center;
