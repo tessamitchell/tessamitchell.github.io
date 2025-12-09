@@ -845,8 +845,8 @@ p {
   align-self: center;
   width:90%;
   display: block; /* Make the image a block-level element */
-  margin-left: 5%; /* Push the image to the right as much as possible */
-  margin-right: 5%;
+  margin-left: auto; /* Push the image to the right as much as possible */
+  margin-right: auto;
   justify-content: center;
 }
 

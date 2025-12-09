@@ -111,12 +111,19 @@ function createCard(project){
     modal.append(x)
 
     for (let i=0;i<project.images.length;i++){
+        
         const newImage = document.createElement('img');
         newImage.src = project.images[i];
-        newImage.style.width="90%";
+        newImage.style.width="1000px";
+        
         modal.append(newImage);
     }
-    
+    if(project.name=="Longform Comic"){
+           modal.style.display="block"; 
+    }
+    else{
+        modal.style.display="block"; 
+    }
 
     image.onclick = function(){
         modal.style.display = "block";
