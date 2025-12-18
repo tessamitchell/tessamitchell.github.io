@@ -61,6 +61,26 @@
         "description":"These classes include the multipe Data Structures and Algorithms classes, Assembly, etc.  Some of the lab topics include things like linked lists, hash tables, binary trees, graphs, various searching and sorting methods, etc.  These assignments were almost always written in C.",
         "date":"2025",
         "tags":[]
+    },
+    {
+        "name":"Garden Drip",
+        "github":"https://github.com/tessamitchell/tamdcz_lalnnh_final_cs4630", 
+        "brief":"Final project for my Game Development class.  It was a partner project, but rather open-ended.  We had to design a game that showed a strong understanding of Unity game development, relate to the theme Connections in some way, and fall into one of the four project options: core mechanic game, physics based game, procedural generation game, or scientific/engineering visualization game.",
+        "image":"https://tessamitchell.github.io/images/gardendrip.png",
+        "video":null,
+        "description":"My teammate and I chose to build a version of a pipe connecting game, where you have to click on the pipes to rotate them to connect the input and output pipes.  Our game used procedural generation to create a unique level each time, using a simplified version of Kruskal's Algorithm, using Union Find to connect the start and end point of the grid.  Then Breadth-First Search was used to prune the maze and find a solution",
+        "date":"2025-12-14",
+        "tags":["Game Dev","C#","Unity","Graph Algorithms"]
+    },
+    {
+        "name":"School Bus Stop Sign Detection",
+        "github":"https://github.com/tessamitchell/SchoolBusStopSignDetection", 
+        "brief":"Final project for my Digital Image Processing.  We were expected to implement a common image processing pipeline (object detection, feature matching, etc) by either applying it to a new problem or using a new method to implement it.  We were not expected to write all steps ourselves and encourage to use source code or existing algorithms to base our methods on.",
+        "image":"https://tessamitchell.github.io/images/stopsign.png",
+        "video":null,
+        "description":"For this project, I was aware of existing issues where Tesla Self Driving does not stop for school buses.  I knew there was plenty of research done on stop sign detection, so there's no reason that school bus stop sign detection wouldn't be managable.  I decided this project direction in late October 2025.  Two days before I presented it, Waymo recalled their software for the exact same research.  My project relied on training a model to detect school bus stop signs, and then detecting whether at least one light on the stop sign was illuminated.  The model succeeded in detecting the stop sign, but sadly I was unable to get the light detection to work properly (full report on Github).",
+        "date":"2025-12-15",
+        "tags":["Object Detection","Image Processing","Machine Learning","Python"]
     }
   
 ]
