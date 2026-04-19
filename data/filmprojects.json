@@ -1,5 +1,29 @@
 [
     {
+        "name":"Gimme Truth! Documentary 2",
+        "youtube":"https://youtu.be/Max-dHp5RmE",
+        "brief":"Project for my Film Production II class.  We were tasked to make a 2 minute documentary that was either 100% true or 100% false, based on the True/False film festival's 'Gimme Truth' competition.  We were assigned groups of 3 or 4, and it had to be related to a brand in some way or another.",
+        "description":"My group decided to tell the fictional story of one of our members.  We had to get the video to be exactly 2 minutes, and the story kept being told in under 1:20, so I had to play with the pacing in the edit, combining different takes, as well as the B-roll another member collected one night.  I had a lot of fun playing with the soundscape to tell this story and faking the text exchange at the end.",
+        "date":"2026-02-08",
+        "tags":["Adobe Premiere Pro", "Documentary", "Canon 5D Mark IV","Group Project"]
+    },
+    {
+        "name":"Stock Footage Commercial",
+        "youtube":"https://youtu.be/pSXIuY-GtHY",
+        "brief":"Project for my Film Production II class.  We were tasked to make a 60 second commercial entirely out of stock footage, preferably without showing the specific brand or product until the end.  This was intended to show our editing abilities, using footage we didn't have to create ourselves.",
+        "description":"(DISCLAIMER: This was a student project and so the use of the brand was permitted for educational purposes.  This was not an offical ad for the company.)  For this commercial, I chose to do a beauty company (and essentially picked one that fit the aesthetic I was trying to achieve).  I wanted to tell the story of how beauty routines are linked to social relationships for so many women, and the positive memories attached to them.  I chose to create this soft atmosphere with the pacing, soundscape, and voiceover to evoke nostalgia and tell a generational story.",
+        "date":"2026-02-22",
+        "tags":["Adobe Premiere Pro", "Commercial", "Stock Footage"]
+    },
+    {
+        "name":"Six-Mile Ordinary Commercial",
+        "youtube":"https://youtu.be/oP5Lh8Av0Xw",
+        "brief":"Project for my Film Production II class.  As an entire class we made a 60 second commercial for a local distillery, Six-Mile Ordinary.  We were all assigned individual roles and then had to create our own final edit of the footage.",
+        "description":"My role on set was Director of Photography.  I created the shot list that was then executed when filming, where I either worked on main camera or collected b-roll (all of the moving shots).  This was the version I submitted in class, although I'm not super happy with all elements.  I struggled with finding royalty-free music that fit the atmosphere I was trying to create, and had some issues with the audio quality of the shots in the bar area.  To improve this project, I would get have the actors ADR some of the audio, and spend more time testing exploring my music options.",
+        "date":"2026-04-07",
+        "tags":["Adobe Premiere Pro", "Documentary", "Canon 5D Mark IV","Group Project"]
+    },
+    {
         "name":"10 Minute Documentary",
         "youtube":"https://www.youtube.com/embed/bzZp8eJDPyg?si=PlJ1NuOmNzCNqpTC",
         "brief":"Project for my Film Production I class.  We had to make a short documentary (defined as 10 minutes or less) with a clear beginning, middle and end on a subject of our choosing.",
@@ -13,9 +37,16 @@
         "brief":"Group project for my Film Production I class.  Everyone pitched a short film, which we voted for which ones we wanted to work on, and were assigned into groups from there.",
         "description":"My film wasn't chosen to be produced which meant I was not the director.  Instead I filled a variety of roles like Producer, Assistant Director, Camerawoman, etc.  The film wasn't my personal vision, and I would have approached the storytelling differently, however my job was to fulfill that of the director, which I feel I did effectively.  I also fell sick during the bulk of the filming days, and was only there for two of the final scenes.  As part of the group, however, we all got to make our own final edit, which is where I was able to really shine.  I created all the graphics myself in Photoshop and then used After Effects to incorporate them into the final edit.",
         "date":"2025-04-07",
-        "tags":["Adobe Premiere Pro", "Short Film", "Canon 5D Mark IV", "Canon EOS Rebel T5i", "Adobe After Effects", "Adobe Audition", "Adobe Photoshop", "Comedy","Narrative"]
+        "tags":["Adobe Premiere Pro", "Short Film", "Canon 5D Mark IV", "Canon EOS Rebel T5i", "Adobe After Effects", "Adobe Audition", "Adobe Photoshop", "Comedy","Narrative","Group Project"]
     },
-    
+    {
+        "name":"Gimme Truth! Documentary",
+        "youtube":"https://www.youtube.com/embed/Xu_fzdZxXD8?si=tGJ_G79IKmIpqPQx",
+        "brief":"Project for my Film Production I class.  We were tasked to make a 2 minute documentary that was either 100% true or 100% false, based on the True/False film festival's 'Gimme Truth' competition.",
+        "description":"I used my friend as the subject for my documentary (or mockumentary in this case).  I wanted to make a subtitled film, so I recruited my friend who spoke Polish and made up the fact that she doesn't like pierogi.  I'd never made a documentary (mock or not) before, so I wanted to experiment with the traditional techniques of documentary (two different camera angles for interviews, somewhat related kitchen B-roll, etc).  It was filmed over the course of a few hours, and I had a lot of fun making it and getting to experiment with subtle ways to add humor (pacing the dumpling 'reveal', using the Wendy's sweet-n-sour sauce, etc), even if the Polish-to-English translation isn't quite there (I mostly made stuff up).  I actually submitted the film to the 2026 edition of Gimme Truth! and made it in, so it was shown at the True/False film festival.",
+        "date":"2025-02-27",
+        "tags":["Adobe Premiere Pro", "Documentary", "Canon 5D Mark IV"]
+    },
     {
         "name":"Visual Poem",
         "youtube":"https://www.youtube.com/embed/c9mVaavVH3g?si=7Gt9X09_4Q5WYacb",
